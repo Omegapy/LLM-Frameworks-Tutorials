@@ -37,7 +37,7 @@ Folders:
 -----------------------------------------------------------------------------------------------------------------------------
 
 Projects Description:  
-Create a python enviroment.  
+Create a python environment.  
 Initialize projects with pipenv.  
 [Pipenv Crash Course](https://www.youtube.com/watch?v=6Qmnh5C4Pmo) 
 
