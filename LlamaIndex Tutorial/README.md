@@ -1,5 +1,5 @@
 -----------------------------------------------------------------------------------------------------------------------------
-LlmaIndex Tutorial
+# LlmaIndex Tutorial
 -----------------------------------------------------------------------------------------------------------------------------
 
  Alejandro Ricciardi (Omegapy)  
@@ -30,10 +30,11 @@ My Links:
 
 Projects map:  
 Folders:
-- HelloWord 
+- HelloWord
+- LlamaIndex Hello Word
 
 -----------------------------------------------------------------------------------------------------------------------------
-#### HelloWord
+## HelloWord
 -----------------------------------------------------------------------------------------------------------------------------
 
 Projects Description:  
@@ -66,3 +67,18 @@ pipenv check
 ```
 Launch IDE:  
 PyCharm in my case
+
+-----------------------------------------------------------------------------------------------------------------------------
+## LlamaIndex Hello Word
+-----------------------------------------------------------------------------------------------------------------------------
+
+Projects Description:  
+- Load WebPage (dataConnector)
+- Store it in an index
+- Create a query Engine
+- Ask questions about the webpage
+- Use the LlamaIndex function:
+    - SimpleWebReader
+    - VectoreStoreIndex
+    - QueryEngine
+
