@@ -7,25 +7,25 @@ HelloWord
 
 -----------------------------------------------------------------------------------------------------------------------------
 
-Projects Description:
-Create a python enviroment. 
-Initialize projects with pipenv.
-[Pipenv Crash Course](https://www.youtube.com/watch?v=6Qmnh5C4Pmo)
+Projects Description:  
+Create a python enviroment.  
+Initialize projects with pipenv.  
+[Pipenv Crash Course](https://www.youtube.com/watch?v=6Qmnh5C4Pmo)  
 
 -----------------------------------------------------------------------------------------------------------------------------
 
 Requirements:  
-[Python](https://www.python.org/)   
-[LlamaIndex](https://www.llamaindex.ai/)  
-[OpenAI API](https://openai.com/)  
+- [Python](https://www.python.org/)   
+- [LlamaIndex](https://www.llamaindex.ai/)  
+- [OpenAI API](https://openai.com/)  
 
 -----------------------------------------------------------------------------------------------------------------------------
 
 My Links:   
-[GitHub](https://github.com/Omegapy)   
-[Facebook](https://www.facebook.com/profile.php?id=100089638857137)  
-[Twitter](https://twitter.com/RicciardiAlex)   
-[Instagram](https://www.instagram.com/alexomegapy/)  
+- [GitHub](https://github.com/Omegapy)   
+- [Facebook](https://www.facebook.com/profile.php?id=100089638857137)  
+- [Twitter](https://twitter.com/RicciardiAlex)   
+- [Instagram](https://www.instagram.com/alexomegapy/)   
 
 -----------------------------------------------------------------------------------------------------------------------------
 #### Console
