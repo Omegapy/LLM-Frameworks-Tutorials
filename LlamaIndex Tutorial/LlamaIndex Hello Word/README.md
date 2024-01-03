@@ -9,10 +9,10 @@ LlamaIndex Hello Word
 
 Projects Description:  
 - Load WebPage (dataConnector)
-- Store it in an idex
+- Store it in an index
 - Create a query Engine
-- Ask question about the webpage
-- Use the LlamaIndex fuction:
+- Ask questions about the webpage
+- Use the LlamaIndex function:
     - SimpleWebReader
     - VectoreStoreIndex
     - QueryEngine
@@ -32,9 +32,7 @@ My Links:
 - [Twitter](https://twitter.com/RicciardiAlex)   
 - [Instagram](https://www.instagram.com/alexomegapy/)   
 
------------------------------------------------------------------------------------------------------------------------------
 
------------------------------------------------------------------------------------------------------------------------------
 
 
 
