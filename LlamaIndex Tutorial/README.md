@@ -1,5 +1,5 @@
 -----------------------------------------------------------------------------------------------------------------------------
-LlmaIndex Tutorial
+# LlmaIndex Tutorial
 -----------------------------------------------------------------------------------------------------------------------------
 
  Alejandro Ricciardi (Omegapy)  
@@ -30,15 +30,20 @@ My Links:
 
 Projects map:  
 Folders:
+<<<<<<< HEAD
 - HelloWord 
 - LlamaIndex Hello Word
+=======
+- HelloWorld
+- LlamaIndex Hello World
+>>>>>>> d4e85b66e0b9392c332f0ae6733f08bd11015d2e
 
 -----------------------------------------------------------------------------------------------------------------------------
-#### HelloWord
+## HelloWorld
 -----------------------------------------------------------------------------------------------------------------------------
 
 Projects Description:  
-Create a python enviroment.  
+Create a python environment.  
 Initialize projects with pipenv.  
 [Pipenv Crash Course](https://www.youtube.com/watch?v=6Qmnh5C4Pmo) 
 
@@ -69,11 +74,16 @@ Launch IDE:
 PyCharm in my case
 
 -----------------------------------------------------------------------------------------------------------------------------
+<<<<<<< HEAD
 #### LlamaIndex Hello Word
+=======
+## LlamaIndex Hello World
+>>>>>>> d4e85b66e0b9392c332f0ae6733f08bd11015d2e
 -----------------------------------------------------------------------------------------------------------------------------
 
 Projects Description:  
 - Load WebPage (dataConnector)
+<<<<<<< HEAD
 - Store it in an idex
 - Create a query Engine
 - Ask question about the webpage
@@ -81,3 +91,13 @@ Projects Description:
     - SimpleWebReader
     - VectoreStoreIndex
     - QueryEngine
+=======
+- Store it in an index
+- Create a query Engine
+- Ask questions about the webpage
+- Use the LlamaIndex function:
+    - SimpleWebReader
+    - VectoreStoreIndex
+    - QueryEngine
+
+>>>>>>> d4e85b66e0b9392c332f0ae6733f08bd11015d2e
