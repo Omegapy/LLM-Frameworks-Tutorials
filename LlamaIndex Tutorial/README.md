@@ -28,15 +28,10 @@ My Links:
 
 -----------------------------------------------------------------------------------------------------------------------------
 
-Projects map:  
 Folders:
-<<<<<<< HEAD
-- HelloWord 
-- LlamaIndex Hello Word
-=======
 - HelloWorld
 - LlamaIndex Hello World
->>>>>>> d4e85b66e0b9392c332f0ae6733f08bd11015d2e
+
 
 -----------------------------------------------------------------------------------------------------------------------------
 ## HelloWorld
@@ -74,24 +69,12 @@ Launch IDE:
 PyCharm in my case
 
 -----------------------------------------------------------------------------------------------------------------------------
-<<<<<<< HEAD
-#### LlamaIndex Hello Word
-=======
 ## LlamaIndex Hello World
->>>>>>> d4e85b66e0b9392c332f0ae6733f08bd11015d2e
 -----------------------------------------------------------------------------------------------------------------------------
 
 Projects Description:  
 - Load WebPage (dataConnector)
-<<<<<<< HEAD
-- Store it in an idex
-- Create a query Engine
-- Ask question about the webpage
-- Use the LlamaIndex fuction:
-    - SimpleWebReader
-    - VectoreStoreIndex
-    - QueryEngine
-=======
+
 - Store it in an index
 - Create a query Engine
 - Ask questions about the webpage
@@ -99,5 +82,3 @@ Projects Description:
     - SimpleWebReader
     - VectoreStoreIndex
     - QueryEngine
-
->>>>>>> d4e85b66e0b9392c332f0ae6733f08bd11015d2e
