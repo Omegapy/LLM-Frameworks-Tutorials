@@ -31,6 +31,7 @@ My Links:
 Projects map:  
 Folders:
 - HelloWord 
+- LlamaIndex Hello Word
 
 -----------------------------------------------------------------------------------------------------------------------------
 #### HelloWord
@@ -66,3 +67,17 @@ pipenv check
 ```
 Launch IDE:  
 PyCharm in my case
+
+-----------------------------------------------------------------------------------------------------------------------------
+#### LlamaIndex Hello Word
+-----------------------------------------------------------------------------------------------------------------------------
+
+Projects Description:  
+- Load WebPage (dataConnector)
+- Store it in an idex
+- Create a query Engine
+- Ask question about the webpage
+- Use the LlamaIndex fuction:
+    - SimpleWebReader
+    - VectoreStoreIndex
+    - QueryEngine
