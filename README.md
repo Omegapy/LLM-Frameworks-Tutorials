@@ -27,7 +27,6 @@ My Links:
 
 -----------------------------------------------------------------------------------------------------------------------------
 
-Projects map:  
 Folders:  
 - LlmaIndex Tutorial
 
@@ -39,8 +38,7 @@ Projects Description:
 A series of LlamaIndex tutorials from Udemy - Eden Marco.  
 [LlamaIndex- Develop LLM powered applications with LlamaIndex](https://www.udemy.com/course/lamaindex/)  
 
-Projects map:  
-Folders:  
+Projects map:    
 - LlmaIndex Tutorial
   - HelloWorld
   - LlamaIndex Hello World
