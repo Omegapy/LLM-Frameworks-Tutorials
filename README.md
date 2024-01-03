@@ -1,5 +1,5 @@
 -----------------------------------------------------------------------------------------------------------------------------
-LLM Frameworks Tutorials
+# LLM Frameworks Tutorials
 -----------------------------------------------------------------------------------------------------------------------------
 
  Alejandro Ricciardi (Omegapy)  
@@ -32,7 +32,7 @@ Folders:
 - LlmaIndex Tutorial
 
 -----------------------------------------------------------------------------------------------------------------------------
-#### LlmaIndex Tutorial
+## LlmaIndex Tutorial
 -----------------------------------------------------------------------------------------------------------------------------
 
 Projects Description:  
@@ -41,4 +41,6 @@ A series of LlamaIndex tutorials from Udemy - Eden Marco.
 
 Projects map:  
 Folders:  
-- LlmaIndex Tutorial  
+- LlmaIndex Tutorial
+  - HelloWorld
+  - LlamaIndex Hello World
