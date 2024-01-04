@@ -31,10 +31,12 @@ My Links:
 Folders:
 - HelloWorld
 - LlamaIndex Hello World
+- LlamaIndex Doc Helper5
 
 
 -----------------------------------------------------------------------------------------------------------------------------
 ## HelloWorld
+Folder: HelloWorld
 -----------------------------------------------------------------------------------------------------------------------------
 
 Projects Description:  
@@ -70,6 +72,7 @@ PyCharm in my case
 
 -----------------------------------------------------------------------------------------------------------------------------
 ## LlamaIndex Hello World
+Folder: LlamaIndex Hello World
 -----------------------------------------------------------------------------------------------------------------------------
 
 Projects Description:  
@@ -82,3 +85,22 @@ Projects Description:
     - SimpleWebReader
     - VectoreStoreIndex
     - QueryEngine
+
+-----------------------------------------------------------------------------------------------------------------------------
+## LlamaIndex Doc Helper
+Folder: LlamaIndex Doc Helper
+-----------------------------------------------------------------------------------------------------------------------------
+
+Projects Description:  
+- Create pipenv (Virtial environment) 
+- Install dependencies
+- Retrieval
+- Download Script (download_docs.py) downloads the LlamaIndex Docs from link
+    - You can use the script to download/create a LlamaIndex Doc. folder
+    - Or you can unzip the provided llamaindex-docs.zip
+- UDownload LlamaIndex Documentation
+- Data Index Injection Program
+    - Separates LlamaIndex Doc data into chucks
+    - Vector Indexing - Embedding With OpenAI
+    - tore Index in a pinecone vector database
+

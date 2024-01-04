@@ -2,3 +2,6 @@
 **/**/.env
 # Pycharm files
 **/**/.idea/
+# Data Files
+**/**/llamindex-docs/
+**/**/llamindex-docs-temp/

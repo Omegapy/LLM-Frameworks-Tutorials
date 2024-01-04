@@ -42,3 +42,4 @@ Projects map:
 - LlmaIndex Tutorial
   - HelloWorld
   - LlamaIndex Hello World
+  - LlamaIndex Doc Helper

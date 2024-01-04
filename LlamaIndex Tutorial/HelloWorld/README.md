@@ -5,6 +5,10 @@ HelloWorld
  Alejandro Ricciardi (Omegapy)  
  created date: 01/01/2024 
 
+Credit:  
+Udemy - Eden Marco.  
+[LlamaIndex- Develop LLM powered applications with LlamaIndex](https://www.udemy.com/course/lamaindex/) 
+
 -----------------------------------------------------------------------------------------------------------------------------
 
 Projects Description:  
