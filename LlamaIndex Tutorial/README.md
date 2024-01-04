@@ -31,7 +31,7 @@ My Links:
 Folders:
 - HelloWorld
 - LlamaIndex Hello World
-- LlamaIndex Doc Helper5
+- LlamaIndex Doc Helper
 
 
 -----------------------------------------------------------------------------------------------------------------------------
