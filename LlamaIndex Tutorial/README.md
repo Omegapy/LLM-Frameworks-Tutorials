@@ -102,5 +102,5 @@ Projects Description:
 - Data Index Injection Program
     - Separates LlamaIndex Doc data into chucks
     - Vector Indexing - Embedding With OpenAI
-    - tore Index in a pinecone vector database
+    - Store Index in a pinecone vector database
 
