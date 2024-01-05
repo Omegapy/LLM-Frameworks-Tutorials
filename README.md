@@ -47,3 +47,4 @@ Projects map:
   - HelloWorld
   - LlamaIndex Hello World
   - LlamaIndex Doc Helper
+  - LlamaIndex Doc Helper - App

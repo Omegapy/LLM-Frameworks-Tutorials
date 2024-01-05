@@ -1,0 +1,8 @@
+python-dotenv
+llama-index
+openai
+pinecone-client
+requests
+beautifulsoup4
+streamlit
+
