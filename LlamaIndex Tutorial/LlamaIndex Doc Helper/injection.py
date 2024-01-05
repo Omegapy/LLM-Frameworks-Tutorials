@@ -10,6 +10,8 @@
 # Udemy - Eden Marco.
 # LlamaIndex- Develop LLM powered applications with LlamaIndex:
 # https://www.udemy.com/course/lamaindex/
+# All the files and folders have been modified from the original source to meet my requirements or to add functionalities to the programs.
+# Furthermore, the code lines are heavily commented on; this is a tutorial, after all.
 #
 # --------------------------------------------------------------------------
 #
@@ -96,9 +98,7 @@ if __name__ == '__main__':
     index_name = "llamaindex-doc-helper"
     # Checks if the picone DB exists
     if index_name not in pinecone.list_indexes():
-        print("\n\033[96m The index name is not in the list of indexes associated with the provided Pinecone account.\n")
-        # Hard exit
-        exit()
+        raise ValueError("The index name is not in the list of indexes associated with the provided Pinecone account.")
     # Init. Pinecone Index object
     pinecone_index = pinecone.Index(index_name=index_name)
     # Warning! Wipes the pinecone DB
