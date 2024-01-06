@@ -136,7 +136,7 @@ The program implements Retrieval Augmented Generation (RAG) to generate inquiry 
    - Debugging with LlamaIndex call-back feature
    - Create an index object
    - Node post-processing:
-      - SentenceEmbeddingOptimizer (llamaIndex)
+      - SentenceEmbeddingOptimizer (LlamaIndex)
       - Custom LlamaIndex node post-processor: DuplicateRemoverNodePostprocessor
    - Prompting LLM and getting a response
    - Implementing Streamlit UI
