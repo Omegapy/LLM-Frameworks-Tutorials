@@ -146,22 +146,21 @@ The program implements Retrieval Augmented Generation (RAG) to generate inquiry 
 -----------------------------------------------------------------------------------------------------------------------------
 
 Projects Description:  
-Using the LlamaIndex ReactAgent method,  
-creates an LlamaIndex Agent that writes haiku (japanese poem) from a given topic.  
+Using the LlamaIndex ReactAgent method to create a LlamaIndex Agent that writes haiku (Japanese poem) from a given topic.  
 
-Agents:  
-An ìagentî is an automated reasoning and decision engine. It takes in a user input/query  
+[Agents:](https://docs.llamaindex.ai/en/stable/use_cases/agents.html#agents)  
+An ‚Äúagent‚Äù is an automated reasoning and decision engine. It takes in a user input/query  
 and can make internal decisions for executing that query in order to return the correct result.  
 The key agent components can include, but are not limited to:  
-   ï	Breaking down a complex question into smaller ones  
-   ï	Choosing an external Tool to use + coming up with parameters for calling the Tool  
-   ï	Planning out a set of tasks  
-   ï	Storing previously completed tasks in a memory module  
-https://docs.llamaindex.ai/en/stable/use_cases/agents.html#agents
+-	Breaking down a complex question into smaller ones  
+-	Choosing an external Tool to use + coming up with parameters for calling the Tool  
+- Planning out a set of tasks  
+-	Storing previously completed tasks in a memory module
+  
+--- A ReAct Agent uses a loop and a list of provided tools to react and respond to queries.
 
---- A ReAct Agent uses a loop and a list of provided tools to react with s and response to query.
-
-Tools: ( From LlamaIndex Documentation)  
+[Tools:](https://docs.llamaindex.ai/en/stable/module_guides/deploying/agents/tools/root.html#tools)  
+( From LlamaIndex Documentation)   
 Having proper tool abstractions is at the core of building data agents.  
 Defining a set of Tools is similar to defining any API interface,  
 with the exception that these Tools are meant for agent rather than human use.  
@@ -170,11 +169,10 @@ A Tool implements a very generic interface - simply define __call__
 and also return some basic metadata (name, description, function schema).	  
 A Tool Spec defines a full API specification of any service that can be converted into a list of Tools.  
 We offer a few different types of Tools:	  
-   ï	FunctionTool: A function tool allows users to easily convert any user-defined function into a Tool.  
-      It can also auto-infer the function schema.  
-   ï	QueryEngineTool: A tool that wraps an existing query engine.  
-      Note: since our agent abstractions inherit from BaseQueryEngine, these tools can also wrap other agents  
-# https://docs.llamaindex.ai/en/stable/module_guides/deploying/agents/tools/root.html#tools
+- FunctionTool: A function tool allows users to easily convert any user-defined function into a Tool. It can also auto-infer the function schema.  
+-	QueryEngineTool: A tool that wraps an existing query engine. Note: since our agent abstractions inherit from BaseQueryEngine, these tools can also wrap other agents    
+
+
 
 
 
