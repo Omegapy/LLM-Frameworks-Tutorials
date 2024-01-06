@@ -1,5 +1,5 @@
 -----------------------------------------------------------------------------------------------------------------------------
-LlamaIndex Doc Helper
+LlamaIndex Doc Helper - APP
 -----------------------------------------------------------------------------------------------------------------------------
 
  Alejandro Ricciardi (Omegapy)  
@@ -14,6 +14,8 @@ Furthermore, the code lines are heavily commented on; this is a tutorial, after 
 -----------------------------------------------------------------------------------------------------------------------------
 
 Projects Description:  
+LlamaIndex Doc Helper - APP is a chatbot document assistant that provides information about LlamaIndex based on the LlamaIndex documentation.  
+The program implements Retrieval Augmented Generation (RAG) to generate inquiry responses.
 - Create pipenv (Virtual environment) 
 - Install dependencies
 - Retrieval
@@ -25,15 +27,16 @@ Projects Description:
     - Separates LlamaIndex Doc data into chucks
     - Vector Indexing - Embedding With OpenAI
     - Store Index in a pinecone vector database
-- Implementing Streamlit user interface (UI) to query LlamaIndex data with an LLM (main.py)
+- Implementing Node post-processing Streamlit user interface (UI) 
    - Accessing a Pinecone DB
    - Creating a vector store object
    - Store Index in a pinecone vector database
    - Debugging with LlamaIndex call-back feature
    - Create an index object
+   - Node post-processing:
+      - SentenceEmbeddingOptimizer (llamaIndex)
+      - Custom LlamaIndex node post-processor: DuplicateRemoverNodePostprocessor
    - Prompting LLM and getting a response
-   - Displaying LLM messages and user input into the browser
-   - Using Streamlit as a user interface (UI)
    - Implementing Streamlit UI
 
 -----------------------------------------------------------------------------------------------------------------------------

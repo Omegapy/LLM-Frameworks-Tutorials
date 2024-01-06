@@ -13,7 +13,8 @@ Furthermore, the code lines are heavily commented on; this is a tutorial, after 
 
 -----------------------------------------------------------------------------------------------------------------------------
 
-Projects Description:  
+Projects Description: 
+Retrieves LlamaIndex documentation and stores it in a node index. 
 - Create pipenv (Virtual environment) 
 - Install dependencies
 - Retrieval
