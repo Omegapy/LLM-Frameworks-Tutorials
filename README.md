@@ -31,7 +31,7 @@ My Links:
 
 -----------------------------------------------------------------------------------------------------------------------------
 
-Folders:  
+Directories:  
 - LlmaIndex Tutorial
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -47,4 +47,6 @@ Projects map:
   - HelloWorld
   - LlamaIndex Hello World
   - LlamaIndex Doc Helper
-  - LlamaIndex Doc Helper - APP
+  - LlamaIndex Doc Helper – APP
+  - Agents LlamaIndex
+
