@@ -17,7 +17,7 @@ Projects Description:
 Using the LlamaIndex ReactAgent method to create a LlamaIndex Agent that writes haiku (Japanese poem) from a given topic.  
 
 [Agents:](https://docs.llamaindex.ai/en/stable/use_cases/agents.html#agents)  
-An “agent” is an automated reasoning and decision engine. It takes in a user input/query  
+An agentis an automated reasoning and decision engine. It takes in a user input/query  
 and can make internal decisions for executing that query in order to return the correct result.  
 The key agent components can include, but are not limited to:  
 -	Breaking down a complex question into smaller ones  
@@ -25,7 +25,9 @@ The key agent components can include, but are not limited to:
 - Planning out a set of tasks  
 -	Storing previously completed tasks in a memory module
   
---- A ReAct Agent uses a loop and a list of provided tools to react and respond to queries.
+--- ReAct Agent: it uses a loop and a list of provided tools to react and respond to queries.  
+--- OpenAI Agent: OpenAI Agent supports function calling from OpenAI.    
+The model is fine-tuned to find the right tool.
 
 [Tools:](https://docs.llamaindex.ai/en/stable/module_guides/deploying/agents/tools/root.html#tools)  
 ( From LlamaIndex Documentation)   
@@ -38,7 +40,7 @@ and also return some basic metadata (name, description, function schema).
 A Tool Spec defines a full API specification of any service that can be converted into a list of Tools.  
 We offer a few different types of Tools:	  
 - FunctionTool: A function tool allows users to easily convert any user-defined function into a Tool. It can also auto-infer the function schema.  
--	QueryEngineTool: A tool that wraps an existing query engine. Note: since our agent abstractions inherit from BaseQueryEngine, these tools can also wrap other agents
+- QueryEngineTool: A tool that wraps an existing query engine. Note: since our agent abstractions inherit from BaseQueryEngine, these tools can also wrap other agents
 
 -----------------------------------------------------------------------------------------------------------------------------
 

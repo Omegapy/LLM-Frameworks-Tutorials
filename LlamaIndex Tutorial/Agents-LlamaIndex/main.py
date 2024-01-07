@@ -28,7 +28,8 @@
 #    •	Storing previously completed tasks in a memory module
 #  https://docs.llamaindex.ai/en/stable/use_cases/agents.html#agents
 #
-#--- A ReAct Agent uses a loop and a list of provided tools to react with s and response to query.
+#--- A ReAct Agent (Reason Act Agent) uses a loop and a list of provided tools to react with s and response to query.
+#--- OpenAI Agent supports function calling from OpenAI. The model is fine-tuned to find the right tool.
 #
 #  Tools: ( From LlamaIndex Documentation)
 #  Having proper tool abstractions is at the core of building data agents.
@@ -45,6 +46,7 @@
 #       since our agent abstractions inherit from BaseQueryEngine, these tools can also wrap other agents
 # https://docs.llamaindex.ai/en/stable/module_guides/deploying/agents/tools/root.html#tools
 #
+#
 #----------------------------------------------------------------------------
 
 #--------------------------------------
@@ -60,7 +62,10 @@ PINECONE_API_KEY = os.environ.get("PINECONE_API_KEY")
 PINECONE_ENVIRONMENT = os.environ.get("PINECONE_ENVIRONMENT")
 #----- LlamaIndex
 from llama_index.llms import OpenAI
-from llama_index.agent import ReActAgent # https://docs.llamaindex.ai/en/stable/examples/agent/react_agent_with_query_engine.html
+from llama_index.agent import ( # https://docs.llamaindex.ai/en/stable/examples/agent/react_agent_with_query_engine.html
+    ReActAgent,
+    OpenAIAgent # https://docs.llamaindex.ai/en/stable/examples/agent/openai_agent.html
+)
 from llama_index.tools import FunctionTool
 from llama_index.callbacks import LlamaDebugHandler, CallbackManager
 
@@ -128,24 +133,39 @@ if __name__ == "__main__":
 
     agent = ReActAgent.from_tools(tools=[tool1, tool2, tool3, tool4], llm=llm, verbose=True)
 
-
+    # ------------------
+    #      Agents
+    # ------------------
     #--- Prompts
     llama_debug = LlamaDebugHandler(print_trace_on_end=True)
     callback_manager = CallbackManager(handlers=[llama_debug])
-    agent = ReActAgent.from_tools(
+    #-- Using ReactAgent
+    agent_react = ReActAgent.from_tools(
         tools=[tool1, tool2, tool3],
-
         llm=llm,
         verbose=True,
         callback_manager=callback_manager,
     )
-    res = agent.query("Write me a haiku about tennis and then count the characters in it")
-    # res = agent.query("Open discord in my computer")
-    # res = agent.query("write a haiku about trees and then Open the url https://www.youtube.com/watch?v=dQw4w9WgXcQ in my Chrome")
-    print(res)
+    #-- Using OpenAI Agent (OpenAI function calling)
+    agent_openai = OpenAIAgent.from_tools(
+        tools=[tool1, tool2, tool3],
+        llm=llm,
+        verbose=True,
+        callback_manager=callback_manager,
+    )
+
+    reasoning_react = agent_react.query("Write me a haiku about tennis and then count the characters in it")
+    reasoning_openai = agent_openai.query("Write me a haiku about tennis and then count the characters in it")
+    # reasoning_react = agent_React.query("Open discord in my computer")
+    # reasoning_openai = agent_React.query("Open discord in my computer")
+    # reasoning_react = agent_React.query("write a haiku about trees and then Open the url https://www.youtube.com/watch?v=dQw4w9WgXcQ in my Chrome")
+    # reasoning_openai = agent_React.query("write a haiku about trees and then Open the url https://www.youtube.com/watch?v=dQw4w9WgXcQ in my Chrome")
+
+    print(reasoning_react)
+    print(reasoning_openai)
 
 """
-Output:
+Output callback ReactAgent:
 
 Thought: I need to use a tool to help me write a haiku about tennis.
 Action: write_haiku
@@ -164,7 +184,7 @@ The haiku about tennis has 54 characters.
 """
 
 """
-Output explanation:
+Output callback ReactAgent explanation:
 
 Prompt : "Write me a haiku about tennis and then count the characters in it"
 

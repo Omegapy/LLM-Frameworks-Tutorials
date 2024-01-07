@@ -149,7 +149,7 @@ Projects Description:
 Using the LlamaIndex ReactAgent method to create a LlamaIndex Agent that writes haiku (Japanese poem) from a given topic.  
 
 [Agents:](https://docs.llamaindex.ai/en/stable/use_cases/agents.html#agents)  
-An “agent” is an automated reasoning and decision engine. It takes in a user input/query  
+An angent is an automated reasoning and decision engine. It takes in a user input/query  
 and can make internal decisions for executing that query in order to return the correct result.  
 The key agent components can include, but are not limited to:  
 -	Breaking down a complex question into smaller ones  
@@ -157,7 +157,10 @@ The key agent components can include, but are not limited to:
 - Planning out a set of tasks  
 -	Storing previously completed tasks in a memory module
   
---- A ReAct Agent uses a loop and a list of provided tools to react and respond to queries.
+--- ReAct Agent: it uses a loop and a list of provided tools to react and respond to queries.  
+--- OpenAI Agent: OpenAI Agent supports function calling from OpenAI.    
+The model is fine-tuned to find the right tool.
+
 
 [Tools:](https://docs.llamaindex.ai/en/stable/module_guides/deploying/agents/tools/root.html#tools)  
 ( From LlamaIndex Documentation)   
