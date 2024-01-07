@@ -156,11 +156,11 @@ The key agent components can include, but are not limited to:
 -	Choosing an external Tool to use + coming up with parameters for calling the Tool  
 - Planning out a set of tasks  
 -	Storing previously completed tasks in a memory module
-  
-ReAct Agent:  
-it uses a loop and a list of provided tools to react and respond to queries.  
 
-OpenAI Agent:  
+Agents used in this project:
+- ReAct Agent:  
+it uses a loop and a list of provided tools to react and respond to queries.  
+- OpenAI Agent:  
 OpenAI Agent supports function calling from OpenAI.    
 The model is fine-tuned to find the right tool.
 
