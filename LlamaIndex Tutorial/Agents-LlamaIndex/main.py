@@ -62,6 +62,9 @@ PINECONE_ENVIRONMENT = os.environ.get("PINECONE_ENVIRONMENT")
 from llama_index.llms import OpenAI
 from llama_index.agent import ReActAgent # https://docs.llamaindex.ai/en/stable/examples/agent/react_agent_with_query_engine.html
 from llama_index.tools import FunctionTool
+from llama_index.callbacks import LlamaDebugHandler, CallbackManager
+
+import subprocess
 
 
 #--------------------------------------
@@ -73,13 +76,42 @@ llm = OpenAI() # Default in Jan. 2024 chatgpt 3.5
 #            Functions
 #--------------------------------------
 
-# This function is used by a function tool to writes a haiku about a given topic
 def write_haiku(topic: str) -> str:
+    """
+    This function is used by a function tool to writes a haiku about a given topic.
+    """
     return llm.complete(f"wrtie me a haiku about {topic}")
 
-# This function is used by a function tool to count the number of characters in text
 def count_characters(text: str) -> int:
+    """
+    This function is used by a function tool to count the number of characters in text.
+    """
     return len(text)
+
+#--------------------------------------
+#  The following functions only work
+#  on systems using UNIX/Linus OSes
+#--------------------------------------
+
+def open_application(application_name: str) -> str:
+    """
+    This function opens an application in my computer
+    """
+    try:
+        subprocess.Popen(["/usr/bin/open", "-n", "-a", application_name])
+        return "successfully opened application"
+    except Exception as e:
+        print(f"Error: {str(e)}")
+
+def open_url(url: str) -> str:
+    """
+    Opens a url in browser (chrome/ safari/ firefox)
+    """
+    try:
+        subprocess.Popen(["/usr/bin/open", "--url", url])
+        return "successfully open url"
+    except Exception as e:
+        print(f"Error: {str(e)}")
 
 #--------------------------------------
 #            Main Program
@@ -91,12 +123,25 @@ if __name__ == "__main__":
     # It can also auto-infer the function schema.
     tool1 = FunctionTool.from_defaults(fn=write_haiku, name="write_haiku") # The name and fn arguments have to have the same spelling
     tool2 = FunctionTool.from_defaults(fn=count_characters, name="count_characters")
+    tool3 = FunctionTool.from_defaults(fn=open_application, name="open_application")
+    tool4 = FunctionTool.from_defaults(fn=open_url, name="open_url")
 
-    agent = ReActAgent.from_tools(tools=[tool1, tool2], llm=llm, verbose=True)
-    res = agent.query(
-        "Write me a haiku about tennis and then count the characters in it"
+    agent = ReActAgent.from_tools(tools=[tool1, tool2, tool3, tool4], llm=llm, verbose=True)
+
+
+    #--- Prompts
+    llama_debug = LlamaDebugHandler(print_trace_on_end=True)
+    callback_manager = CallbackManager(handlers=[llama_debug])
+    agent = ReActAgent.from_tools(
+        tools=[tool1, tool2, tool3],
+
+        llm=llm,
+        verbose=True,
+        callback_manager=callback_manager,
     )
-
+    res = agent.query("Write me a haiku about tennis and then count the characters in it")
+    # res = agent.query("Open discord in my computer")
+    # res = agent.query("write a haiku about trees and then Open the url https://www.youtube.com/watch?v=dQw4w9WgXcQ in my Chrome")
     print(res)
 
 """
@@ -142,7 +187,7 @@ Thought: I can answer without using any more tools. <-- No more tools match the 
 -- end loop --
 
 -- Outputs response
-Response: The haiku about tennis has 54 characters. 
+Response: The haiku about tennis has 54 characters.
 The haiku about tennis has 54 characters.
 
 """
