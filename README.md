@@ -9,7 +9,7 @@
 
 Projects Description:  
 This repository is a series of LlamaIndex and LangChain Tutorials based on Udemy - Eden Marco.  
-[LlamaIndex- Develop LLM powered applications with LlamaIndex](https://www.udemy.com/course/lamaindex/) 
+[LlamaIndex- Develop LLM powered applications with LlamaIndex](https://www.udemy.com/course/lamaindex/)  
 [LangChain- Develop LLM powered applications with LangChain](https://www.udemy.com/course/langchain)  
 All the files and folders have been modified from the original source to meet my requirements or to add functionalities to the programs. 
 Furthermore, the code lines are heavily commented on; this is a tutorial, after all.
@@ -49,7 +49,7 @@ Projects map:
   - HelloWorld
   - LlamaIndex Hello World
   - LlamaIndex Doc Helper
-  - LlamaIndex Doc Helper – APP
+  - LlamaIndex Doc Helper â€“ APP
   - Agents LlamaIndex
 
 -----------------------------------------------------------------------------------------------------------------------------
