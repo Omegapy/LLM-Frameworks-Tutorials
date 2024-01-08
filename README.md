@@ -60,3 +60,8 @@ Projects Description:
 A series of LangChain tutorials from Udemy - Eden Marco.  
 [LangChain- Develop LLM powered applications with LangChain](https://www.udemy.com/course/langchain/)  
 
+Projects map:    
+- LangChain Tutorial
+  - HelloWorld
+
+

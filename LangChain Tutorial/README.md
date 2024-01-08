@@ -33,6 +33,7 @@ My Links:
 
 Directories:
 - HelloWorld
+- LangChain Hell World
 
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -69,5 +70,16 @@ pipenv check
 ```
 Launch IDE:  
 PyCharm in my case
+
+
+-----------------------------------------------------------------------------------------------------------------------------
+## LangChain Hello World
+-----------------------------------------------------------------------------------------------------------------------------
+
+Projects Description:
+Hello Word using LangChain.
+
+Example of using Langchain LCEL
+https://python.langchain.com/docs/expression_language/get_started
 
 
