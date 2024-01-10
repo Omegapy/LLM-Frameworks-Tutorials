@@ -1,0 +1,6 @@
+jupyter lab
+python-dotenv
+llama-index>=0.7.7
+# PyTorch
+torch torchvision
+ftfy regex tqdm

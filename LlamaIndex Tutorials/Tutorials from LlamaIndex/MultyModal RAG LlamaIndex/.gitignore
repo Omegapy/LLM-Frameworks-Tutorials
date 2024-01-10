@@ -1,0 +1,8 @@
+# API Keys 
+.env
+# Jypiter Files
+.ipynb_checkpoints/
+# Pycharm files
+.idea/
+# Data Bases
+qdrant_mm_db/

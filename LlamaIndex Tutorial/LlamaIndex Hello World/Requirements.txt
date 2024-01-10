@@ -1,3 +1,0 @@
-python-dotenv
-llama-index
-html2text
