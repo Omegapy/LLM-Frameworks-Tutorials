@@ -14,15 +14,16 @@ This repository is a series of LlamaIndex and langChain Tutorials on Udemy - Ede
 
 Requirements:  
 - [Python](https://www.python.org/)   
-- [LlamaIndex](https://www.llamaindex.ai/)  
+- [LlamaIndex](https://www.llamaindex.ai/)
+- [LangChain](https://www.langchain.com/)
+- [Jupyter Notebook](https://jupyter.org/) 
 - [OpenAI API](https://openai.com/)  
 
 -----------------------------------------------------------------------------------------------------------------------------
 
 My Links:   
 - [GitHub](https://github.com/Omegapy)   
-- [Facebook](https://www.facebook.com/profile.php?id=100089638857137)
--  [Jupyter Notebook] (https://jupyter.org/)   
+- [Facebook](https://www.facebook.com/profile.php?id=100089638857137)  
 - [Twitter](https://twitter.com/RicciardiAlex)   
 - [Instagram](https://www.instagram.com/alexomegapy/)  
 
@@ -39,8 +40,8 @@ Directories:
 Projects Description:
 Series of LlamaIndex Tutorials
 
-- LlmaIndex Tutorial From LlamaIndex (Directory: Tutorials from LlamaIndex)
-The tutorials are based on LlamaIndex own tutorials
+- LlmaIndex Tutorial From LlamaIndex (Directory: Tutorials from LlamaIndex)  
+The tutorials are based on LlamaIndex own tutorials.
 - LlamaIndex Tutorials from E.D. Udemy (Directoty: Tutorials from ED Udemy)  
 A series of LlamaIndex Tutorials based on Udemy - Eden Marco.  
 [LlamaIndex- Develop LLM powered applications with LlamaIndex](https://www.udemy.com/course/lamaindex/)  
