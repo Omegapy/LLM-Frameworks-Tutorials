@@ -37,7 +37,7 @@ My Links:
 ## LlmaIndex Tutorial From LlamaIndex 
 (Directory: LlamaIndex-Tutorials-Gen)
 
------------------------------------------------------------------------------------------------------------------------------ Projects Description:  
+-----------------------------------------------------------------------------------------------------------------------------  
 
 Projects Description:  
 This project is a series of LlamaIndex Tutorials on Jupyter Notebook.  
@@ -60,14 +60,12 @@ https://www.youtube.com/@LlamaIndex
 -----------------------------------------------------------------------------------------------------------------------------
 ## LlamaIndex Tutorials from E.D. Udemy  
 (Directoty: Tutorials from ED Udemy)
+
 -----------------------------------------------------------------------------------------------------------------------------
 
 Projects Description:  
 A series of LlamaIndex tutorials from Udemy - Eden Marco.  
 [LlamaIndex- Develop LLM powered applications with LlamaIndex](https://www.udemy.com/course/lamaindex/)  
-
-Projects map:    
-- LlmaIndex Tutorial
   - HelloWorld
   - LlamaIndex Hello World
   - LlamaIndex Doc Helper
