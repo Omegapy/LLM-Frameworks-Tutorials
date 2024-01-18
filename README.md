@@ -56,6 +56,6 @@ Furthermore, the code lines are heavily commented on; this is a tutorial, after 
 Projects Description:
 Series of LangChain Tutorials
 
-- Tutorial LangChain LCEL: This project is a series of LangChain Expression Language (LCEL)tutorials on Jupyter Notebook.
-The tutorials are a series of LangChain LCEL (in Python) code examples from the https://python.langchain.com/ website
+- Tutorial LangChain LCEL: This project is a series of LangChain Expression Language (LCEL) tutorials on Jupyter Notebook.
+  The tutorials are a series of LangChain LCEL (in Python) code examples from the https://python.langchain.com/ website
 
