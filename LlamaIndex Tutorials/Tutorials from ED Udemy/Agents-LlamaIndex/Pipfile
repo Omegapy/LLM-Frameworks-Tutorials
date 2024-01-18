@@ -9,6 +9,9 @@ name = "pypi"
 #openai = "*"
 #black = "*"
 python-dotenv = "*"
+llama-index = "*"
+openai = "*"
+black = "*"
 
 [dev-packages]
 

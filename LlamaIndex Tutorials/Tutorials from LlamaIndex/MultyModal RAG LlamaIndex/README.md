@@ -19,7 +19,9 @@ Requirements:
 Python: https://www.python.org/  
 Jupyter Notebook: https://jupyter.org/  
 LlamaIndex: https://www.llamaindex.ai/  
-OpenAI API Key: https://openai.com/  
+OpenAI API Key: https://openai.com/  	
+
+Note: I use [pipenv]( https://pipenv.pypa.io/en/latest/) as my Python virtual environment
 
 -----------------------------------------------------------------------------------------------------------------------------
 
