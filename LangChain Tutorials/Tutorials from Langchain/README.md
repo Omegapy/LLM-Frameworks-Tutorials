@@ -11,15 +11,15 @@ Projects Description:
 This project is a series of LangChain Expression Language (LCEL)tutorials on Jupyter Notebook.  
 The tutorials are a series of LangChain LCEL (in Python) code examples from the https://python.langchain.com/ website
 
-- LangChain Expression Language (LCEL) – 
+- LangChain Expression Language (LCEL) â€“ 
 
 -----------------------------------------------------------------------------------------------------------------------------
 
 Requirements:  
-- [Python] (https://www.python.org/)  
-- [Jupyter Notebook] (https://jupyter.org/)  
+- [Python](https://www.python.org/)  
+- [Jupyter Notebook](https://jupyter.org/)  
 - [LangChain](https://www.langchain.com/) 
-- [OpenAI API Key] (https://openai.com/) 
+- [OpenAI API Key](https://openai.com/) 
 
 Note: I use [pipenv]( https://pipenv.pypa.io/en/latest/) as my Python virtual environment
 
