@@ -29,8 +29,6 @@ My Links:
 - [Twitter](https://twitter.com/RicciardiAlex)   
 - [Instagram](https://www.instagram.com/alexomegapy/)  
 
-Note: I use [pipenv]( https://pipenv.pypa.io/en/latest/) as my Python virtual environment
-
 -----------------------------------------------------------------------------------------------------------------------------
 
 Directories:  
