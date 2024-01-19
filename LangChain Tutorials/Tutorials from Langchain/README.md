@@ -42,9 +42,11 @@ My Links:
 - Why Use LCEL (Why LCEL.ipynb)
 
 -----------------------------------------------------------------------------------------------------------------------------
-## Intro. to LangChain LCEL
+-----------------------------------------------------------------------------------------------------------------------------
+<h2 align="center">Intro. to LangChain LCEL</h2>
 (Intro LangChain LCEL.ipynb)
 
+-----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 
 Projects Description:  
@@ -69,9 +71,11 @@ LCEL makes it easier to build complex chains from basic components, and supports
     - Example Explanation
 
 -----------------------------------------------------------------------------------------------------------------------------
-## Why Use LCEL 
+-----------------------------------------------------------------------------------------------------------------------------
+ <h2 align="center">Why Use LCE</h2>
 (Why LCEL.ipynb)
 
+-----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 
 Projects Description:  
@@ -84,10 +88,10 @@ LCEL makes it easier to build complex chains from basic components, and supports
 **Project map:**
 - API Key
 - Basic Example Using LCEL
-- [Invoke](#invoke)
+- Invoke
     - With LCEL
     - Without LCEL
-- Stream](#stream)
+- Stream
     - With LCEL
     - Without LCEL
 - Batch
@@ -99,7 +103,7 @@ LCEL makes it easier to build complex chains from basic components, and supports
 - LLM instead of chat model
     - With LCEL
     - Without LCEL
-- [Different model provider
+- Different model provider
     - With LCEL
     - Without LCEL
 - Runtime configurability
@@ -111,7 +115,7 @@ LCEL makes it easier to build complex chains from basic components, and supports
 - Fallbacks 
     - With LCEL
     - Without LCEL
-- Full cod comparison
+- Full code comparison
     - With LCEL
     - Without LCEL
 
