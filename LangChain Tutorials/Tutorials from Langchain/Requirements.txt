@@ -1,0 +1,6 @@
+jupyter lab
+python-dotenv
+langchain
+langchain docarray tiktoken
+pydantic==1.10.8
+docarray==0.40.0

@@ -1,0 +1,18 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+jupyter = "*"
+langchain = "*"
+langchain-openai = "*"
+python-dotenv = "*"
+docarray = "==0.40.0"
+tiktoken = "*"
+pydantic = "==1.10.8."
+
+[dev-packages]
+
+[requires]
+python_version = "3.12"
