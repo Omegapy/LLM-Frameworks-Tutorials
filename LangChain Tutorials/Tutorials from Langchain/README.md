@@ -83,6 +83,37 @@ LCEL makes it easier to build complex chains from basic components, and supports
 
 **Project map:**
 - API Key
+- Basic Example Using LCEL
+- [Invoke](#invoke)
+    - With LCEL
+    - Without LCEL
+- Stream](#stream)
+    - With LCEL
+    - Without LCEL
+- Batch
+    - With LCEL
+    - Without LCEL
+- Async
+    - With LCEL
+    - Without LCEL
+- LLM instead of chat model
+    - With LCEL
+    - Without LCEL
+- [Different model provider
+    - With LCEL
+    - Without LCEL
+- Runtime configurability
+    - With LCEL
+    - Without LCEL
+- Logging
+    - With LCEL
+    - Without LCEL
+- Fallbacks 
+    - With LCEL
+    - Without LCEL
+- Full cod comparison
+    - With LCEL
+    - Without LCEL
 
 
 
