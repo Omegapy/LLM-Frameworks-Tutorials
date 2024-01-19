@@ -5,12 +5,11 @@
  Alejandro Ricciardi (Omegapy)  
  created date: 01/18/2024  
 
------------------------------------------------------------------------------------------------------------------------------
-
 Projects Description: 
  This project is a series of LangChain Expression Language (LCEL)tutorials on Jupyter Notebook.  
 The tutorials are a series of LangChain LCEL (in Python) code examples from the https://python.langchain.com/ website
 
+-----------------------------------------------------------------------------------------------------------------------------
 
 **LangChain** is a framework for developing applications powered by language models. It enables applications that:
 - **Are context-aware**: connect a language model to sources of context (prompt instructions, few shot examples, content to ground its response in, etc.)
@@ -20,7 +19,6 @@ This framework consists of several parts.
 - **LangChain Templates:** A collection of easily deployable reference architectures for a wide variety of tasks.
 - **LangServe:** A library for deploying LangChain chains as a REST API.
 - **LangSmith:** A developer platform that lets you debug, test, evaluate, and monitor chains built on any LLM framework and seamlessly integrates with LangChain.
-
 
 -----------------------------------------------------------------------------------------------------------------------------
 
@@ -36,10 +34,15 @@ My Links:
 - [GitHub](https://github.com/Omegapy)   
 - [Facebook](https://www.facebook.com/profile.php?id=100089638857137)  
 - [Twitter](https://twitter.com/RicciardiAlex)   
-- [Instagram](https://www.instagram.com/alexomegapy/)  
+- [Instagram](https://www.instagram.com/alexomegapy/)
+-----------------------------------------------------------------------------------------------------------------------------
+
+  **Project map:**
+- Intro. to LangChain LCEL (Intro LangChain LCEL.ipynb)
+- Why Use LCEL (Why LCEL.ipynb)
 
 -----------------------------------------------------------------------------------------------------------------------------
-## Intro. to LangChain LCEL.ipynb
+## Intro. to LangChain LCEL
 (Intro LangChain LCEL.ipynb)
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -49,12 +52,9 @@ Projects Description:
 **In this project:**  I get started using LCEL.    
 LCEL makes it easier to build complex chains from basic components, and supports out of the box functionality such as streaming, parallelism, and logging.
 
-<p></p>
-<b class="alert alert-block alert-info" style="font-size:15;">
 ⚠️ This project requires an OpenAi key.
-</b>
 
-Project map:
+**Project map:**
 - API Key
 - Getting started
     - Basic example **```chain = prompt | model | output_parser```**
@@ -78,12 +78,10 @@ Projects Description:
 **LangChain** is a framework for developing applications powered by language models.  
 **In this project:**  I compare using LCEL and using LangChain without LCEL.   
 LCEL makes it easier to build complex chains from basic components, and supports out of the box functionality such as streaming, parallelism, and logging
-<p></p>
-<b class="alert alert-block alert-info" style="font-size:15;">
-⚠️ This project requires an OpenAi key.
-</b>
 
-Project map:
+⚠️ This project requires an OpenAi key.
+
+**Project map:**
 - API Key
 
 
