@@ -30,8 +30,6 @@ Requirements:
 - [LangChain](https://www.langchain.com/) 
 - [OpenAI API Key](https://openai.com/) 
 
-Note: I use [pipenv]( https://pipenv.pypa.io/en/latest/) as my Python virtual environment
-
  -----------------------------------------------------------------------------------------------------------------------------
 
 My Links:   
