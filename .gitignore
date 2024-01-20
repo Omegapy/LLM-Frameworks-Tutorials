@@ -7,6 +7,8 @@
 **/**/llamaindex-docs-temp/
 # Virtual Env.
 **/**/.venv/
+# Workspace VS code
+**/**/*code-workspace
 # Jypiter 
 **/**/.ipynb_checkpoints/
 # Data Bases
