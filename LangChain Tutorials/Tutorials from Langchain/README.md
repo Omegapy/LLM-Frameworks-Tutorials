@@ -37,9 +37,10 @@ My Links:
 - [Instagram](https://www.instagram.com/alexomegapy/)
 -----------------------------------------------------------------------------------------------------------------------------
 
-  **Project map:**
+**Project map:**
 - Intro. to LangChain LCEL (Intro LangChain LCEL.ipynb)
 - Why Use LCEL (Why LCEL.ipynb)
+- Interface - Runnable Class (Interface - Runnable Class.ipynb)
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
@@ -86,41 +87,111 @@ LCEL makes it easier to build complex chains from basic components, and supports
 ⚠️ This project requires an OpenAi key.
 
 **Project map:**
+<table>
+  <tr>
+    <td>API Key</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Basic Example Using LCEL</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Invoke</td>
+    <td>With LCEL</td>
+    <td>Without LCEL</td>
+  </tr>
+  <tr>
+    <td>Stream</td>
+    <td>With LCEL</td>
+    <td>Without LCEL</td>
+  </tr>
+  <tr>
+    <td>Batch</td>
+    <td>With LCEL</td>
+    <td>Without LCEL</td>
+  </tr>
+  <tr>
+    <td>Async</td>
+    <td>With LCEL</td>
+    <td>Without LCEL</td>
+  </tr>
+  <tr>
+    <td>LLM instead of chat model</td>
+    <td>With LCEL</td>
+    <td>Without LCEL</td>
+  </tr>
+  <tr>
+    <td>Different model provider</td>
+    <td>With LCEL</td>
+    <td>Without LCEL</td>
+  </tr>
+  <tr>
+    <td>Runtime configurability</td>
+    <td>With LCEL</td>
+    <td>Without LCEL</td>
+  </tr>
+  <tr>
+    <td>Logging</td>
+    <td>With LCEL</td>
+    <td>Without LCEL</td>
+  </tr>
+  <tr>
+    <td>Fallbacks</td>
+    <td>With LCEL</td>
+    <td>Without LCEL</td>
+  </tr>
+  <tr>
+    <td>Full code comparison</td>
+    <td>With LCEL</td>
+    <td>Without LCEL</td>
+  </tr>
+</table>
+
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+ <h2 align="center">Interface - Runnable Class</h2>
+(Interface - Runnable Class.ipynb)
+
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+
+Projects Description:  
+**LangChain** is a framework for developing applications powered by language models. It enables applications that:
+
+**In this project:**  I explore the concept of the [Runnable](https://api.python.langchain.com/en/stable/runnables/langchain_core.runnables.base.Runnable.html#langchain_core.runnables.base.Runnable) protocol. Using LangChain Expression Language (LCEL).
+
+```class langchain_core.runnables.base.Runnable``` 
+
+A unit of work that can be invoked, batched, streamed, transformed and composed.
+- ```invoke```/```ainvoke```: Transforms a single input into an output.
+- ```batch```/```abatch```: Efficiently transforms multiple inputs into outputs.
+- ```stream```/```astream```: Streams output from a single input as it’s produced.
+- ```astream_log```: ```Streams``` output and selected intermediate results from an input.
+
+**Project map:**
 - API Key
-- Basic Example Using LCEL
-- Invoke
-    - With LCEL
-    - Without LCEL
-- Stream
-    - With LCEL
-    - Without LCEL
+- Base Example
+- Input Schema
+    - Chain Schema
+    - Prompt Schema
+    - Model Schema
+- Output Schema
+    - Chain Schema
+    - Prompt Schema
+    - Model Schema
 - Batch
-    - With LCEL
-    - Without LCEL
 - Async
-    - With LCEL
-    - Without LCEL
-- LLM instead of chat model
-    - With LCEL
-    - Without LCEL
-- Different model provider
-    - With LCEL
-    - Without LCEL
-- Runtime configurability
-    - With LCEL
-    - Without LCEL
-- Logging
-    - With LCEL
-    - Without LCEL
-- Fallbacks 
-    - With LCEL
-    - Without LCEL
-- Full code comparison
-    - With LCEL
-    - Without LCEL
-
-
-
-
+    - Async Stream
+    - Async Invoke
+    - Async Batch
+- Parallelism
+    - Chains NOT ran in parallel
+    - Chains ran in parallel]
+- Parallelism on batches]
+    - Batches NOT ran in parallel
+    - Batches ran in parallel
 
 
