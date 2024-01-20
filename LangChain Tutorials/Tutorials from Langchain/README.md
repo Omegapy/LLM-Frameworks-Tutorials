@@ -189,8 +189,8 @@ A unit of work that can be invoked, batched, streamed, transformed and composed.
     - Async Batch
 - Parallelism
     - Chains NOT ran in parallel
-    - Chains ran in parallel]
-- Parallelism on batches]
+    - Chains ran in parallel
+- Parallelism on batches
     - Batches NOT ran in parallel
     - Batches ran in parallel
 
