@@ -5,9 +5,11 @@
  Alejandro Ricciardi (Omegapy)  
  created date: 01/18/2024  
 
-Projects Description: 
+Projects Description:  
  This project is a series of LangChain Expression Language (LCEL)tutorials on Jupyter Notebook.  
 The tutorials are a series of LangChain LCEL (in Python) code examples from the https://python.langchain.com/ website
+
+⚠️ This project requires an OpenAi key.
 
 -----------------------------------------------------------------------------------------------------------------------------
 
@@ -55,8 +57,6 @@ Projects Description:
 **In this project:**  I get started using LCEL.    
 LCEL makes it easier to build complex chains from basic components, and supports out of the box functionality such as streaming, parallelism, and logging.
 
-⚠️ This project requires an OpenAi key.
-
 **Project map:**
 - API Key
 - Getting started
@@ -83,8 +83,6 @@ Projects Description:
 **LangChain** is a framework for developing applications powered by language models.  
 **In this project:**  I compare using LCEL and using LangChain without LCEL.   
 LCEL makes it easier to build complex chains from basic components, and supports out of the box functionality such as streaming, parallelism, and logging
-
-⚠️ This project requires an OpenAi key.
 
 **Project map:**
 <table>
