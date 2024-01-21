@@ -39,15 +39,14 @@ My Links:
 - [Instagram](https://www.instagram.com/alexomegapy/)
 -----------------------------------------------------------------------------------------------------------------------------
 
-**Project map:**
-- Intro. to LangChain LCEL (Intro LangChain LCEL.ipynb)
-- Why Use LCEL (Why LCEL.ipynb)
-- Interface - Runnable Class (Interface - Runnable Class.ipynb)
+#### Project Map Main
+- [Intro. to LangChain LCEL](#intro-to-langchain-lcel) -|- [Intro LangChain LCEL.ipynb](https://github.com/Omegapy/LLM-Frameworks-Tutorials/blob/main/LangChain%20Tutorials/Tutorials%20from%20Langchain/Intro%20LangChain%20LCEL.ipynb)
+- [Why Use LCEL](#why-use-lcel) -|- [Why LCEL.ipynb](https://github.com/Omegapy/LLM-Frameworks-Tutorials/blob/main/LangChain%20Tutorials/Tutorials%20from%20Langchain/Why%20LCEL.ipynb)
+- [Interface - Runnable Class](interface--runnable-class) -|- [Interface - Runnable Class.ipynb](https://github.com/Omegapy/LLM-Frameworks-Tutorials/blob/main/LangChain%20Tutorials/Tutorials%20from%20Langchain/Interface%20-%20Runnable%20Class.ipynb)
 
-[Tutorial LangChain LCEL](#tutorial-langchain-lcel)
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
-<h2 align="center">Intro. to LangChain LCEL</h2>
+# Intro. to LangChain LCEL
 (Intro LangChain LCEL.ipynb)
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -74,7 +73,7 @@ LCEL makes it easier to build complex chains from basic components, and supports
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
- <h2 align="center">Why Use LCE</h2>
+ # Why Use LCEL
 (Why LCEL.ipynb)
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -151,7 +150,7 @@ LCEL makes it easier to build complex chains from basic components, and supports
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
- <h2 align="center">Interface - Runnable Class</h2>
+# Interface - Runnable Class
 (Interface - Runnable Class.ipynb)
 
 -----------------------------------------------------------------------------------------------------------------------------
