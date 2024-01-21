@@ -37,7 +37,7 @@ My Links:
 
 -----------------------------------------------------------------------------------------------------------------------------
 ## LlmaIndex Tutorial From LlamaIndex 
-(Directory: LlamaIndex-Tutorials-Gen)
+[Tutorials from LlamaIndex]( https://github.com/Omegapy/LLM-Frameworks-Tutorials/tree/main/LlamaIndex%20Tutorials/Tutorials%20from%20LlamaIndex)
 
 -----------------------------------------------------------------------------------------------------------------------------  
 
@@ -45,15 +45,16 @@ Projects Description:
 This project is a series of LlamaIndex Tutorials on Jupyter Notebook.  
 The tutorials are provided by LlamaIndex
 
-- LlamaIndex Tutorials General (Directory: LlamaIndex-Tutorials-Gen)  
+- LlamaIndex Tutorials General (Directory: [LlamaIndex-Tutorials-Gen](https://github.com/Omegapy/LLM-Frameworks-Tutorials/tree/main/LlamaIndex%20Tutorials/Tutorials%20from%20LlamaIndex/LlamaIndex-Tutorials-Gen)  
 The tutorials are based on LlamaIndex own tutorials.  
 https://www.youtube.com/playlist?list=PLTZkGHtR085ZjK1srrSZIrkeEzQiMjO9W
-	- 1. LlamaIndex LLMs-Prompts: LlamaIndex Intro. Tutorial (1- LlamaIndex LLMs-Prompts.ipynb)
-	- 2. LlamaIndex Doc-Metadata: LlamaIndex Intro. Tutorial (2- LlamaIndex Doc-Metadata.ipynb)
-	- 3. Evaluation Baseline LLM: LlamaIndex Intro. Tutorial (3- Evaluation Baseline LLM.ipynb)
-	- 4. Embeddings LlamaIndex-OpenAI: LlamaIndex Intro. Tutorial (4- Embeddings LlamaIndex-OpenAI.ipynb)
+	- 1. LlamaIndex LLMs-Prompts: LlamaIndex Intro. Tutorial [1- LlamaIndex LLMs-Prompts.ipynb](https://github.com/Omegapy/LLM-Frameworks-Tutorials/blob/main/LlamaIndex%20Tutorials/Tutorials%20from%20LlamaIndex/LlamaIndex-Tutorials-Gen/1-%20LlamaIndex%20LLMs-Prompts.ipynb)
+	- 2. LlamaIndex Doc-Metadata: LlamaIndex Intro. Tutorial [2- LlamaIndex Doc-Metadata.ipynb](https://github.com/Omegapy/LLM-Frameworks-Tutorials/blob/main/LlamaIndex%20Tutorials/Tutorials%20from%20LlamaIndex/LlamaIndex-Tutorials-Gen/2-%20LlamaIndex%20Doc-Metadata.ipynb)
+	- 3. Evaluation Baseline LLM: LlamaIndex Intro. Tutorial [3- Evaluation Baseline LLM.ipynb](https://github.com/Omegapy/LLM-Frameworks-Tutorials/blob/main/LlamaIndex%20Tutorials/Tutorials%20from%20LlamaIndex/LlamaIndex-Tutorials-Gen/3-%20Evaluation%20Baseline%20LLM.ipynb)
+	- 4. Embeddings LlamaIndex-OpenAI: LlamaIndex Intro. Tutorial [4- Embeddings LlamaIndex-OpenAI.ipynb](https://github.com/Omegapy/LLM-Frameworks-Tutorials/blob/main/LlamaIndex%20Tutorials/Tutorials%20from%20LlamaIndex/LlamaIndex-Tutorials-Gen/4-%20Embeddings%20LlamaIndex-OpenAI.ipynb)
 
-- Multi-modal Retrieval Augmented Generation with LlamaIndex on Jupyter Notebook. (Directory: MultyModal RAG LlamaIndex)
+- Multi-modal Retrieval Augmented Generation with LlamaIndex on Jupyter Notebook. [MultyModal RAG LlamaIndex](https://github.com/Omegapy/LLM-Frameworks-Tutorials/tree/main/LlamaIndex%20Tutorials/Tutorials%20from%20LlamaIndex/MultyModal%20RAG%20LlamaIndex)
+
 Multi-Modal retrieval system using LlamaIndex with GPT4-V and CLIP. 
 The tutorials are based on LlamaIndex YouTube video series.  
 https://www.youtube.com/@LlamaIndex  
@@ -62,7 +63,7 @@ https://www.youtube.com/@LlamaIndex
 
 -----------------------------------------------------------------------------------------------------------------------------
 ## LlamaIndex Tutorials from E.D. Udemy  
-(Directoty: Tutorials from ED Udemy)
+[Tutorials from ED Udemy](https://github.com/Omegapy/LLM-Frameworks-Tutorials/tree/main/LlamaIndex%20Tutorials/Tutorials%20from%20ED%20Udemy)
 
 -----------------------------------------------------------------------------------------------------------------------------
 
