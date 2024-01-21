@@ -42,7 +42,7 @@ My Links:
 #### Project Map Main
 - [Intro. to LangChain LCEL](#intro-to-langchain-lcel) -|- [Intro LangChain LCEL.ipynb](https://github.com/Omegapy/LLM-Frameworks-Tutorials/blob/main/LangChain%20Tutorials/Tutorials%20from%20Langchain/Intro%20LangChain%20LCEL.ipynb)
 - [Why Use LCEL](#why-use-lcel) -|- [Why LCEL.ipynb](https://github.com/Omegapy/LLM-Frameworks-Tutorials/blob/main/LangChain%20Tutorials/Tutorials%20from%20Langchain/Why%20LCEL.ipynb)
-- [Interface - Runnable Class](interface--runnable-class) -|- [Interface - Runnable Class.ipynb](https://github.com/Omegapy/LLM-Frameworks-Tutorials/blob/main/LangChain%20Tutorials/Tutorials%20from%20Langchain/Interface%20-%20Runnable%20Class.ipynb)
+- [Interface - Runnable Class](interface---runnable-class) -|- [Interface - Runnable Class.ipynb](https://github.com/Omegapy/LLM-Frameworks-Tutorials/blob/main/LangChain%20Tutorials/Tutorials%20from%20Langchain/Interface%20-%20Runnable%20Class.ipynb)
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
