@@ -40,14 +40,19 @@ My Links:
 -----------------------------------------------------------------------------------------------------------------------------
 
 #### Project Map Main
-- [Intro. to LangChain LCEL](#intro-to-langchain-lcel) -|- [Intro LangChain LCEL.ipynb](https://github.com/Omegapy/LLM-Frameworks-Tutorials/blob/main/LangChain%20Tutorials/Tutorials%20from%20Langchain/Intro%20LangChain%20LCEL.ipynb)
-- [Why Use LCEL](#why-use-lcel) -|- [Why LCEL.ipynb](https://github.com/Omegapy/LLM-Frameworks-Tutorials/blob/main/LangChain%20Tutorials/Tutorials%20from%20Langchain/Why%20LCEL.ipynb)
-- [Interface - Runnable Class](interface-runnable-class) -|- [Interface - Runnable Class.ipynb](https://github.com/Omegapy/LLM-Frameworks-Tutorials/blob/main/LangChain%20Tutorials/Tutorials%20from%20Langchain/Interface%20-%20Runnable%20Class.ipynb)
+- [Intro. to LangChain LCEL](#intro-to-langchain-lcel) 
+- [Why Use LCEL](#why-use-lcel) 
+- [Interface Runnable Class](interface-runnable-class) 
+
+Notebooks:
+- [Intro LangChain LCEL.ipynb](https://github.com/Omegapy/LLM-Frameworks-Tutorials/blob/main/LangChain%20Tutorials/Tutorials%20from%20Langchain/Intro%20LangChain%20LCEL.ipynb)
+- [Why LCEL.ipynb](https://github.com/Omegapy/LLM-Frameworks-Tutorials/blob/main/LangChain%20Tutorials/Tutorials%20from%20Langchain/Why%20LCEL.ipynb)
+- [Interface - Runnable Class.ipynb](https://github.com/Omegapy/LLM-Frameworks-Tutorials/blob/main/LangChain%20Tutorials/Tutorials%20from%20Langchain/Interface%20-%20Runnable%20Class.ipynb)
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 # Intro. to LangChain LCEL
-(Intro LangChain LCEL.ipynb)
+[Intro LangChain LCEL.ipynb](https://github.com/Omegapy/LLM-Frameworks-Tutorials/blob/main/LangChain%20Tutorials/Tutorials%20from%20Langchain/Intro%20LangChain%20LCEL.ipynb)
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
@@ -71,10 +76,12 @@ LCEL makes it easier to build complex chains from basic components, and supports
     - Example
     - Example Explanation
 
+[Go back to the top](#project-map-main)
+
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
  # Why Use LCEL
-(Why LCEL.ipynb)
+[Why LCEL.ipynb](https://github.com/Omegapy/LLM-Frameworks-Tutorials/blob/main/LangChain%20Tutorials/Tutorials%20from%20Langchain/Why%20LCEL.ipynb)
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
@@ -146,12 +153,14 @@ LCEL makes it easier to build complex chains from basic components, and supports
     <td>With LCEL</td>
     <td>Without LCEL</td>
   </tr>
-</table><br>
+</table><be>
+
+[Go back to the top](#project-map-main)
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
-# Interface - Runnable Class
-(Interface - Runnable Class.ipynb)
+# Interface Runnable Class
+[Interface - Runnable Class.ipynb](https://github.com/Omegapy/LLM-Frameworks-Tutorials/blob/main/LangChain%20Tutorials/Tutorials%20from%20Langchain/Interface%20-%20Runnable%20Class.ipynb)
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
@@ -192,4 +201,4 @@ A unit of work that can be invoked, batched, streamed, transformed and composed.
     - Batches NOT ran in parallel
     - Batches ran in parallel
 
-
+[Go back to the top](#project-map-main)
