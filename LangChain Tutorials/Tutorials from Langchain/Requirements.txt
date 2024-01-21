@@ -6,3 +6,4 @@ langchainhub
 pydantic==1.10.8
 docarray==0.40.0
 faiss-cpu
+grandalf

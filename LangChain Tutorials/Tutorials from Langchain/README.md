@@ -37,17 +37,21 @@ My Links:
 - [Facebook](https://www.facebook.com/profile.php?id=100089638857137)  
 - [Twitter](https://twitter.com/RicciardiAlex)   
 - [Instagram](https://www.instagram.com/alexomegapy/)
+
 -----------------------------------------------------------------------------------------------------------------------------
 
 #### Project Map Main
 - [Intro. to LangChain LCEL](#intro-to-langchain-lcel) 
 - [Why Use LCEL](#why-use-lcel) 
-- [Interface Runnable Class](interface-runnable-class) 
+- [Interface Runnable Class](#interface-runnable-class) 
+- [How To](#how-to)
+
 
 Notebooks:
 - [Intro LangChain LCEL.ipynb](https://github.com/Omegapy/LLM-Frameworks-Tutorials/blob/main/LangChain%20Tutorials/Tutorials%20from%20Langchain/Intro%20LangChain%20LCEL.ipynb)
 - [Why LCEL.ipynb](https://github.com/Omegapy/LLM-Frameworks-Tutorials/blob/main/LangChain%20Tutorials/Tutorials%20from%20Langchain/Why%20LCEL.ipynb)
 - [Interface - Runnable Class.ipynb](https://github.com/Omegapy/LLM-Frameworks-Tutorials/blob/main/LangChain%20Tutorials/Tutorials%20from%20Langchain/Interface%20-%20Runnable%20Class.ipynb)
+- [How To.ipynb](https://github.com/Omegapy/LLM-Frameworks-Tutorials/blob/main/LangChain%20Tutorials/Tutorials%20from%20Langchain/How%20To.ipynb)
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
@@ -202,3 +206,73 @@ A unit of work that can be invoked, batched, streamed, transformed and composed.
     - Batches ran in parallel
 
 [Go back to the Project Main Map](#project-map-main)
+
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+# How To
+[How To.ipynb](https://github.com/Omegapy/LLM-Frameworks-Tutorials/blob/main/LangChain%20Tutorials/Tutorials%20from%20Langchain/How%20To.ipynb)
+
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+
+Projects Description:  
+**LangChain** is a framework for developing applications powered by language models. 
+
+**In this project:** 
+I explore how to apply LCEL to different code applications such as manipulating data and adding messages.
+
+**Project map:**
+- API Key
+- Manipulating Inputs Output (RunnableParallel)
+    - Base Example
+    - Using itemgetter as shorthand
+    - Parallelism
+        - Base Example
+        - Parallelism running independent processes
+- Passing data through (RunnablePassthrough
+    - Retrieval Example
+- Run Custom Functions
+    - Base Example
+    - Accepting a Runnable Config - (Token Used)
+- Dynamically route logic based on input (RunnableBranch
+    - Using a RunnableBranch
+- Bind runtime args
+    - Base Example
+    - Attaching OpenAI functions
+    - Attaching OpenAI tools
+    - Configuration Fields
+        - With LLMs (llm temp)
+        - With HubRunnables (prompt switching
+    - Configurable Alternatives)
+        - With LLMs (model Alt
+        - With Prompts
+        - With Prompts and LLMs
+    - Saving configurations
+- Create a runnable with the @chain decorator
+- Handling LLM API Errors)
+    - OpenAI Key Fallbacks Anthropic Key
+    - Anthropic Key Fallbacks OpenAI Key
+    - Model RateLimits Fallbacks using prompt templates (OpenAI gpt-4  Fallbacks to OpenAI gpt-3.5)
+- Stream custom generator functions
+    - Sync version
+    - Async version
+- Inspect Runnables
+    - Base Example
+    - Print a graph
+- Chain Memory (Add message history (memory))
+    - Setup](#setup)
+        - Docker Explained
+        - REDIS Server and Docker Container
+        - LangSmith
+    - Example: Dict input, message output
+    - Adding message history
+    - Invoking with config
+    - Example: messages input, dict output
+    - More examples
+
+[Go back to the Project Main Map](#project-map-main)
+
+
+
+
+
