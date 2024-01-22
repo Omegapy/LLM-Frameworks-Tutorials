@@ -51,11 +51,11 @@ My Links:
 
 
 Notebooks:
-- [Intro LangChain LCEL.ipynb](https://github.com/Omegapy/LLM-Frameworks-Tutorials/blob/main/LangChain%20Tutorials/Tutorials%20from%20LangChain/LangChain%20Expression%20Language%20(LCEL)/Intro%20LangChain%20LCEL.ipynb)
-- [Why LCEL.ipynb](https://github.com/Omegapy/LLM-Frameworks-Tutorials/blob/main/LangChain%20Tutorials/Tutorials%20from%20LangChain/LangChain%20Expression%20Language%20(LCEL)/Why%20LCEL.ipynb)
-- [Interface - Runnable Class.ipynb](https://github.com/Omegapy/LLM-Frameworks-Tutorials/blob/main/LangChain%20Tutorials/Tutorials%20from%20LangChain/LangChain%20Expression%20Language%20(LCEL)/Interface%20-%20Runnable%20Class.ipynb)
-- [How To.ipynb](https://github.com/Omegapy/LLM-Frameworks-Tutorials/blob/main/LangChain%20Tutorials/Tutorials%20from%20Langchain/LangChain%20Expression%20Language%20(LCEL)/How%20To.ipynb)
-- [Cookbook.ipynb](https://github.com/Omegapy/LLM-Frameworks-Tutorials/blob/main/LangChain%20Tutorials/Tutorials%20from%20LangChain/LangChain%20Expression%20Language%20(LCEL)/Cookbook.ipynb)
+- [Intro LangChain LCEL.ipynb](https://github.com/Omegapy/LLM-Frameworks-Tutorials/blob/main/LangChain%20Tutorials/Tutorials%20from%20Langchain/LangChain%20Expression%20Language%20(LCEL)/Intro%20LangChain%20LCEL.ipynb)
+- [Why LCEL.ipynb]
+- [Interface - Runnable Class.ipynb]
+- [How To.ipynb]
+- [Cookbook.ipynb]
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
