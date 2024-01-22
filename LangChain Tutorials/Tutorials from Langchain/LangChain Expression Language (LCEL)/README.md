@@ -51,16 +51,16 @@ My Links:
 
 
 Notebooks:
-- [Intro LangChain LCEL.ipynb](https://github.com/Omegapy/LLM-Frameworks-Tutorials/blob/main/LangChain%20Tutorials/Tutorials%20from%20Langchain/LangChain%20Expression%20Language%20(LCEL)/Intro%20LangChain%20LCEL.ipynb)
-- [Why LCEL.ipynb](https://github.com/Omegapy/LLM-Frameworks-Tutorials/blob/main/LangChain%20Tutorials/Tutorials%20from%20Langchain/LangChain%20Expression%20Language%20(LCEL)/Why%20LCEL.ipynb)
-- [Interface - Runnable Class.ipynb](https://github.com/Omegapy/LLM-Frameworks-Tutorials/blob/main/LangChain%20Tutorials/Tutorials%20from%20Langchain/LangChain%20Expression%20Language%20(LCEL)/Interface%20-%20Runnable%20Class.ipynb)
+- [Intro LangChain LCEL.ipynb](https://github.com/Omegapy/LLM-Frameworks-Tutorials/blob/main/LangChain%20Tutorials/Tutorials%20from%20LangChain/LangChain%20Expression%20Language%20(LCEL)/Intro%20LangChain%20LCEL.ipynb)
+- [Why LCEL.ipynb](https://github.com/Omegapy/LLM-Frameworks-Tutorials/blob/main/LangChain%20Tutorials/Tutorials%20from%20LangChain/LangChain%20Expression%20Language%20(LCEL)/Why%20LCEL.ipynb)
+- [Interface - Runnable Class.ipynb](https://github.com/Omegapy/LLM-Frameworks-Tutorials/blob/main/LangChain%20Tutorials/Tutorials%20from%20LangChain/LangChain%20Expression%20Language%20(LCEL)/Interface%20-%20Runnable%20Class.ipynb)
 - [How To.ipynb](https://github.com/Omegapy/LLM-Frameworks-Tutorials/blob/main/LangChain%20Tutorials/Tutorials%20from%20Langchain/LangChain%20Expression%20Language%20(LCEL)/How%20To.ipynb)
-- [Cookbook.ipynb](https://github.com/Omegapy/LLM-Frameworks-Tutorials/blob/main/LangChain%20Tutorials/Tutorials%20from%20Langchain/LangChain%20Expression%20Language%20(LCEL)/Cookbook.ipynb)
+- [Cookbook.ipynb](https://github.com/Omegapy/LLM-Frameworks-Tutorials/blob/main/LangChain%20Tutorials/Tutorials%20from%20LangChain/LangChain%20Expression%20Language%20(LCEL)/Cookbook.ipynb)
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 # Intro. to LangChain LCEL
-[Intro LangChain LCEL.ipynb](https://github.com/Omegapy/LLM-Frameworks-Tutorials/blob/main/LangChain%20Tutorials/Tutorials%20from%20Langchain/LangChain%20Expression%20Language%20(LCEL)/Intro%20LangChain%20LCEL.ipynb)
+[Intro LangChain LCEL.ipynb](https://github.com/Omegapy/LLM-Frameworks-Tutorials/blob/main/LangChain%20Tutorials/Tutorials%20from%20LangChain/LangChain%20Expression%20Language%20(LCEL)/Intro%20LangChain%20LCEL.ipynb)
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
@@ -89,7 +89,7 @@ LCEL makes it easier to build complex chains from basic components, and supports
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
  # Why Use LCEL
-[Why LCEL.ipynb](https://github.com/Omegapy/LLM-Frameworks-Tutorials/blob/main/LangChain%20Tutorials/Tutorials%20from%20Langchain/LangChain%20Expression%20Language%20(LCEL)/Why%20LCEL.ipynb)
+[Why LCEL.ipynb](https://github.com/Omegapy/LLM-Frameworks-Tutorials/blob/main/LangChain%20Tutorials/Tutorials%20from%20LangChain/LangChain%20Expression%20Language%20(LCEL)/Why%20LCEL.ipynb)
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
@@ -168,7 +168,7 @@ LCEL makes it easier to build complex chains from basic components, and supports
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 # Interface Runnable Class
-[Interface - Runnable Class.ipynb](https://github.com/Omegapy/LLM-Frameworks-Tutorials/blob/main/LangChain%20Tutorials/Tutorials%20from%20Langchain/LangChain%20Expression%20Language%20(LCEL)/Interface%20-%20Runnable%20Class.ipynb)
+[Interface - Runnable Class.ipynb](https://github.com/Omegapy/LLM-Frameworks-Tutorials/blob/main/LangChain%20Tutorials/Tutorials%20from%20LangChain/LangChain%20Expression%20Language%20(LCEL)/Interface%20-%20Runnable%20Class.ipynb)
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
@@ -214,7 +214,7 @@ A unit of work that can be invoked, batched, streamed, transformed and composed.
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 # How To
-[How To.ipynb](https://github.com/Omegapy/LLM-Frameworks-Tutorials/blob/main/LangChain%20Tutorials/Tutorials%20from%20Langchain/LangChain%20Expression%20Language%20(LCEL)/How%20To.ipynb
+[How To.ipynb](https://github.com/Omegapy/LLM-Frameworks-Tutorials/blob/main/LangChain%20Tutorials/Tutorials%20from%20LangChain/LangChain%20Expression%20Language%20(LCEL)/How%20To.ipynb)
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
@@ -279,7 +279,7 @@ I explore how to apply LCEL to different code applications such as manipulating 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 # Cookbook
-[Cookbook.ipynb](https://github.com/Omegapy/LLM-Frameworks-Tutorials/blob/main/LangChain%20Tutorials/Tutorials%20from%20Langchain/LangChain%20Expression%20Language%20(LCEL)/Cookbook.ipynb)
+[Cookbook.ipynb](https://github.com/Omegapy/LLM-Frameworks-Tutorials/blob/main/LangChain%20Tutorials/Tutorials%20from%20LangChain/LangChain%20Expression%20Language%20(LCEL)/Cookbook.ipynb)
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
