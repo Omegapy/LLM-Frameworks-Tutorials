@@ -44,7 +44,7 @@ Projects Description:
 This project is a series of LangChain Expression Language (LCEL) tutorials on Jupyter Notebook.  
 The tutorials are a series of LangChain LCEL (in Python) code examples from the https://python.langchain.com/ website
 
-Project Map Main
+Project Map:
 - [LangChain Expression Language (LCEL)](https://github.com/Omegapy/LLM-Frameworks-Tutorials/tree/main/LangChain%20Tutorials/Tutorials%20from%20LangChain/LangChain%20Expression%20Language%20(LCEL)) 
 
 
