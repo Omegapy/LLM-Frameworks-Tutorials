@@ -3,6 +3,7 @@ python-dotenv
 langchain
 langchain docarray tiktoken
 langchainhub
+langchain_experimental
 pydantic==1.10.8
 docarray==0.40.0
 faiss-cpu
