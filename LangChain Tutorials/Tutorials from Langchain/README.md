@@ -6,8 +6,8 @@
  created date: 01/18/2024  
 
 Projects Description:  
-This project is a series of LangChain Expression Language (LCEL) tutorials on Jupyter Notebook.  
-The tutorials are a series of LangChain LCEL (in Python) code examples from the https://python.langchain.com/ website
+This project is a series of LangChain tutorials on Jupyter Notebook.  
+The tutorials are a series of LangChain in Python code examples from the https://python.langchain.com/ website
 
 ⚠️ This project requires an OpenAI key.
 
@@ -70,6 +70,28 @@ Notebooks:
 - [Interface - Runnable Class.ipynb](https://github.com/Omegapy/LLM-Frameworks-Tutorials/blob/main/LangChain%20Tutorials/Tutorials%20from%20Langchain/LangChain%20Expression%20Language%20(LCEL)/Interface%20-%20Runnable%20Class.ipynb)
 - [How To.ipynb](https://github.com/Omegapy/LLM-Frameworks-Tutorials/blob/main/LangChain%20Tutorials/Tutorials%20from%20Langchain/LangChain%20Expression%20Language%20(LCEL)/How%20To.ipynb)
 - [Cookbook.ipynb](https://github.com/Omegapy/LLM-Frameworks-Tutorials/blob/main/LangChain%20Tutorials/Tutorials%20from%20Langchain/LangChain%20Expression%20Language%20(LCEL)/Cookbook.ipynb)
+
+[Go back to the Project Main Map](#project-map-main)
+
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+# LangChain Module
+[LangChain Module](https://github.com/Omegapy/LLM-Frameworks-Tutorials/tree/main/LangChain%20Tutorials/Tutorials%20from%20Langchain/LangChain%20Modules)
+
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+
+Project Description:
+This project is a series of LangChain Modules tutorials on Jupyter Notebook.  
+The tutorials are a series LangChain Python code examples from the https://python.langchain.com/ website
+
+Specifically from the section [Modules](https://python.langchain.com/docs/modules/model_io/)
+
+**Project Map:**
+- Model IO
+
+Notebooks:
+- [Module IO.ipynb](https://github.com/Omegapy/LLM-Frameworks-Tutorials/blob/main/LangChain%20Tutorials/Tutorials%20from%20Langchain/LangChain%20Modules/Model%20IO.ipynb)
 
 [Go back to the Project Main Map](#project-map-main)
 
