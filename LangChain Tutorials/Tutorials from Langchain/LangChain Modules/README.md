@@ -32,7 +32,7 @@ My Links:
 -----------------------------------------------------------------------------------------------------------------------------
 
 #### Project Map Main
-- [Module IO](#module io) 
+- Module IO
 
 Notebooks:
 - [Module IO.ipynb](https://github.com/Omegapy/LLM-Frameworks-Tutorials/blob/main/LangChain%20Tutorials/Tutorials%20from%20Langchain/LangChain%20Modules/Model%20IO.ipynb)
