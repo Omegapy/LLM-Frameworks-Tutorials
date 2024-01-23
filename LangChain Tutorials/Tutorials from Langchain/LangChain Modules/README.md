@@ -35,12 +35,12 @@ My Links:
 - [Module IO](#module io) 
 
 Notebooks:
-- [Module IO.ipynb]()
+- [Module IO.ipynb](https://github.com/Omegapy/LLM-Frameworks-Tutorials/blob/main/LangChain%20Tutorials/Tutorials%20from%20Langchain/LangChain%20Modules/Model%20IO.ipynb)
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 # Module IO
-[Module IO]()
+[Module IO](https://github.com/Omegapy/LLM-Frameworks-Tutorials/blob/main/LangChain%20Tutorials/Tutorials%20from%20Langchain/LangChain%20Modules/Model%20IO.ipynb)
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
@@ -51,7 +51,7 @@ Projects Description:
 I explore the concept Model i/o, the core element of any language model application is...the model.   
 LangChain gives you the building blocks to interface with any language model.
 
-![Model i/0]()
+<img width="800" src="https://github.com/Omegapy/LLM-Frameworks-Tutorials/blob/main/LangChain%20Tutorials/Tutorials%20from%20Langchain/LangChain%20Modules/pic/model_io.jpg">
 
 [Conceptual Guide](https://python.langchain.com/docs/modules/model_io/concepts)  
 A conceptual explanation of messages, prompts, LLMs vs ChatModels, and output parsers. You should read this before getting started.  
@@ -74,7 +74,7 @@ Output parsers are responsible for transforming the output of LLMs and ChatModel
     - Prompt Templates
     - Output parsers
     - Composing with LCEL
-- Concepts](#concepts)
+- Concepts
      - Models (concept)
      - Messages (concept)
      - Prompts (concept)
