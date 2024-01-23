@@ -41,7 +41,8 @@ My Links:
 -----------------------------------------------------------------------------------------------------------------------------
 
 #### Project Map Main
-- [LangChain Expression Language (LCEL)](#langchain-expression-language-lcel) 
+- [LangChain Expression Language (LCEL)](#langchain-expression-language-lcel)
+- [LangChain Modules](#langchain-modules)
 
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -75,8 +76,8 @@ Notebooks:
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
-# LangChain Module
-[LangChain Module](https://github.com/Omegapy/LLM-Frameworks-Tutorials/tree/main/LangChain%20Tutorials/Tutorials%20from%20Langchain/LangChain%20Modules)
+# LangChain Modules
+[LangChain Modules](https://github.com/Omegapy/LLM-Frameworks-Tutorials/tree/main/LangChain%20Tutorials/Tutorials%20from%20Langchain/LangChain%20Modules)
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
