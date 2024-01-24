@@ -13,3 +13,5 @@
 **/**/.ipynb_checkpoints/
 # Data Bases
 **/**/.qdrant_mm_db/
+Templates
+**/**/Template.ipynb
