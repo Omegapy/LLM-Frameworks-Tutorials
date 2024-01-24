@@ -35,12 +35,12 @@ My Links:
 - [Model IO](#model-io)
 
 Directory:
-- [Model IO]()
+- [Model IO](https://github.com/Omegapy/LLM-Frameworks-Tutorials/tree/main/LangChain%20Tutorials/Tutorials%20from%20Langchain/LangChain%20Modules/Model%20IO)
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 # Model IO
-[Model IO]()
+[Model IO](https://github.com/Omegapy/LLM-Frameworks-Tutorials/tree/main/LangChain%20Tutorials/Tutorials%20from%20Langchain/LangChain%20Modules/Model%20IO)
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
@@ -51,7 +51,7 @@ Projects Description:
 I explore the concept Model i/o, the core element of any language model application is...the model.   
 LangChain gives you the building blocks to interface with any language model.
 
-<img width="800" src="https://github.com/Omegapy/LLM-Frameworks-Tutorials/blob/main/LangChain%20Tutorials/Tutorials%20from%20Langchain/LangChain%20Modules/pic/model_io.jpg">
+<img width="800" src="https://github.com/Omegapy/LLM-Frameworks-Tutorials/blob/main/LangChain%20Tutorials/Tutorials%20from%20Langchain/LangChain%20Modules/Model%20IO/pic/model_io.jpg">
 
 [Conceptual Guide](https://python.langchain.com/docs/modules/model_io/concepts)  
 A conceptual explanation of messages, prompts, LLMs vs ChatModels, and output parsers. You should read this before getting started.  
@@ -81,7 +81,7 @@ Output parsers are responsible for transforming the output of LLMs and ChatModel
      - Output Parsers (concept) 
 
 Notebook:
-[Model IO.ipynb]()
+[Model IO.ipynb](https://github.com/Omegapy/LLM-Frameworks-Tutorials/blob/main/LangChain%20Tutorials/Tutorials%20from%20Langchain/LangChain%20Modules/Model%20IO/Model%20IO.ipynb)
 
 [Go back to the Project Main Map](#project-map-main)
 
