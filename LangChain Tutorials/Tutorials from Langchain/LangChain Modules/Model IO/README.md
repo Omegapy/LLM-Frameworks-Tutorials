@@ -1,5 +1,5 @@
 ﻿-----------------------------------------------------------------------------------------------------------------------------
-# LangChain Modules
+# Module IO
 -----------------------------------------------------------------------------------------------------------------------------
 
  Alejandro Ricciardi (Omegapy)  
@@ -31,27 +31,13 @@ My Links:
 
 -----------------------------------------------------------------------------------------------------------------------------
 
-#### Project Map Main
-- [Model IO](#model-io)
-
-Directory:
-- [Model IO]()
-
------------------------------------------------------------------------------------------------------------------------------
------------------------------------------------------------------------------------------------------------------------------
-# Model IO
-[Model IO]()
-
------------------------------------------------------------------------------------------------------------------------------
------------------------------------------------------------------------------------------------------------------------------
-
 Projects Description:  
 **LangChain** is a framework for developing applications powered by language models.  
 **In this project:**  
 I explore the concept Model i/o, the core element of any language model application is...the model.   
 LangChain gives you the building blocks to interface with any language model.
 
-<img width="800" src="https://github.com/Omegapy/LLM-Frameworks-Tutorials/blob/main/LangChain%20Tutorials/Tutorials%20from%20Langchain/LangChain%20Modules/pic/model_io.jpg">
+![Model i/0]()
 
 [Conceptual Guide](https://python.langchain.com/docs/modules/model_io/concepts)  
 A conceptual explanation of messages, prompts, LLMs vs ChatModels, and output parsers. You should read this before getting started.  
@@ -74,15 +60,11 @@ Output parsers are responsible for transforming the output of LLMs and ChatModel
     - Prompt Templates
     - Output parsers
     - Composing with LCEL
-- Concepts
+- Concepts](#concepts)
      - Models (concept)
      - Messages (concept)
      - Prompts (concept)
      - Output Parsers (concept) 
 
-Notebook:
-[Model IO.ipynb]()
-
-[Go back to the Project Main Map](#project-map-main)
 
 
