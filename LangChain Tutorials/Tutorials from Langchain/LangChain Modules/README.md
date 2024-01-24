@@ -9,7 +9,7 @@ Projects Description:
 This project is a series of LangChain Modules tutorials on Jupyter Notebook.  
 The tutorials are a series LangChain Python code examples from the https://python.langchain.com/ website
 
-Specifically from the section [Modules](https://python.langchain.com/docs/modules/model_io/)
+Specifically from the section [Modules](https://python.langchain.com/docs/modules)
 
 ⚠️ This project requires an OpenAI key.
 
