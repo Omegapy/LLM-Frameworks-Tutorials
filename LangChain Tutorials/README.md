@@ -46,7 +46,7 @@ The tutorials are a series of LangChain LCEL (in Python) code examples from the 
 
 Project Map:
 - [LangChain Expression Language (LCEL)](https://github.com/Omegapy/LLM-Frameworks-Tutorials/tree/main/LangChain%20Tutorials/Tutorials%20from%20Langchain/LangChain%20Expression%20Language%20(LCEL))
+- [LangChain Modules](https://github.com/Omegapy/LLM-Frameworks-Tutorials/tree/main/LangChain%20Tutorials/Tutorials%20from%20Langchain/LangChain%20Modules)
 
 
-
-
+[Go back to the Project Main Map](#project-map-main)
