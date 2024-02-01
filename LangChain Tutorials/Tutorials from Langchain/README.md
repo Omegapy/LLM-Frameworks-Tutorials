@@ -89,10 +89,8 @@ The tutorials are a series LangChain Python code examples from the https://pytho
 Specifically from the section [Modules](https://python.langchain.com/docs/modules/model_io/)
 
 **Project Map:**
-- Model IO
-
-Notebooks:
-- [Module IO.ipynb](https://github.com/Omegapy/LLM-Frameworks-Tutorials/blob/main/LangChain%20Tutorials/Tutorials%20from%20Langchain/LangChain%20Modules/Model%20IO.ipynb)
+- [Model IO](https://github.com/Omegapy/LLM-Frameworks-Tutorials/tree/main/LangChain%20Tutorials/Tutorials%20from%20Langchain/LangChain%20Modules/Model%20IO)
+- [Retrieval](https://github.com/Omegapy/LLM-Frameworks-Tutorials/tree/main/LangChain%20Tutorials/Tutorials%20from%20Langchain/LangChain%20Modules/Retrieval)
 
 [Go back to the Project Main Map](#project-map-main)
 
