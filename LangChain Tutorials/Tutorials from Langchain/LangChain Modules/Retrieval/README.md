@@ -39,10 +39,10 @@ LangChain provides all the building blocks for RAG applications - from simple to
 
 <img width="800" src="">
 
-[Document loaders]( https://python.langchain.com/docs/modules/data_connection/document_loaders/)   
+[Document loaders](https://python.langchain.com/docs/modules/data_connection/document_loaders/)   
 Document loaders load documents from many different sources. LangChain provides over 100 different document loaders as well as integrations with other major providers in the space, like AirByte and Unstructured. LangChain provides integrations to load all types of documents (HTML, PDF, code) from all types of locations (private S3 buckets, public websites).
 
-[Text Splitting]( https://python.langchain.com/docs/modules/data_connection/document_transformers/)  
+[Text Splitting](https://python.langchain.com/docs/modules/data_connection/document_transformers/)  
 A key part of retrieval is fetching only the relevant parts of documents. This involves several transformation steps to prepare the documents for retrieval. One of the primary ones here is splitting (or chunking) a large document into smaller chunks. LangChain provides several transformation algorithms for doing this, as well as logic optimized for specific document types (code, markdown, etc).
 
 [Text embedding models](https://python.langchain.com/docs/modules/data_connection/text_embedding/)  
@@ -107,7 +107,22 @@ Document loaders provide a "load" method for loading data as documents from a co
 
 **Project Map:**
 - API Key
-
+- Getting started (.txt)
+- CSV
+    - Base Example
+    - Customizing the CSV parsing and loading
+    - Specify a column to identify the document source
+- File Directory
+    - Base Example
+    - Show a progress bar
+    - Use multithreading
+    - Change loader class
+        - Base Example
+        - Load Python Source Code
+    - Auto-detect file encodings with TextLoader
+        - A. Default Behavior
+        - B. Silent fail
+        - C. Auto detect encodings
 
 [Go back to the Project Main Map](#project-map-main)
 
