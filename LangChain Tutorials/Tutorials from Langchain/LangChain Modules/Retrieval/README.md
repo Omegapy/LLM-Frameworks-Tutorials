@@ -122,7 +122,7 @@ Document loaders provide a "load" method for loading data as documents from a co
     - Auto-detect file encodings with TextLoader
         - A. Default Behavior
         - B. Silent fail
-        - C. Auto detect encodings
+        - C. Auto-detect encodings
 
 [Go back to the Project Main Map](#project-map-main)
 
