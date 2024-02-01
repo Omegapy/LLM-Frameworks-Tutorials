@@ -149,5 +149,7 @@ Notebooks:
 - [Text embedding models.ipynb](https://github.com/Omegapy/LLM-Frameworks-Tutorials/blob/main/LangChain%20Tutorials/Tutorials%20from%20Langchain/LangChain%20Modules/Retrieval/Text%20embedding%20models.ipynb)
 - [Vector stores.ipynb](https://github.com/Omegapy/LLM-Frameworks-Tutorials/blob/main/LangChain%20Tutorials/Tutorials%20from%20Langchain/LangChain%20Modules/Retrieval/Vector%20stores.ipynb)
 - [Retrievers.ipynb](https://github.com/Omegapy/LLM-Frameworks-Tutorials/blob/main/LangChain%20Tutorials/Tutorials%20from%20Langchain/LangChain%20Modules/Retrieval/Retrievers.ipynb)
+
+[Go back to the Project Main Map](#project-map-main)
 - [indexing.ipynb](https://github.com/Omegapy/LLM-Frameworks-Tutorials/blob/main/LangChain%20Tutorials/Tutorials%20from%20Langchain/LangChain%20Modules/Retrieval/indexing.ipynb)
 
