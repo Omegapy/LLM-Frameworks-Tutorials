@@ -37,7 +37,7 @@ Many LLM applications require user-specific data that is not part of the model's
 
 LangChain provides all the building blocks for RAG applications - from simple to complex. This section of the documentation covers everything related to the retrieval step - e.g. the fetching of the data. Although this sounds simple, it can be subtly complex. This encompasses several key modules.
 
-<img width="800" src="">
+<img width="800" src="https://github.com/Omegapy/LLM-Frameworks-Tutorials/blob/main/LangChain%20Tutorials/Tutorials%20from%20Langchain/LangChain%20Modules/Retrieval/pic/data_connection.jpg">
 
 [Document loaders](https://python.langchain.com/docs/modules/data_connection/document_loaders/)   
 Document loaders load documents from many different sources. LangChain provides over 100 different document loaders as well as integrations with other major providers in the space, like AirByte and Unstructured. LangChain provides integrations to load all types of documents (HTML, PDF, code) from all types of locations (private S3 buckets, public websites).
@@ -77,17 +77,17 @@ The LangChain Indexing API syncs your data from any source into a vector store, 
 - [Indexing](#indexing)
 
 Notebooks:
-- [Document loaders.ipynb]()
-- [Text Splitters.ipynb]()
-- [Text embedding models.ipynb]()
-- [Vector stores.ipynb]()
-- [Retrievers.ipynb]()
-- [indexing.ipynb]()
+- [Document loaders.ipynb](https://github.com/Omegapy/LLM-Frameworks-Tutorials/blob/main/LangChain%20Tutorials/Tutorials%20from%20Langchain/LangChain%20Modules/Retrieval/Document%20loaders.ipynb)
+- [Text Splitters.ipynb](https://github.com/Omegapy/LLM-Frameworks-Tutorials/blob/main/LangChain%20Tutorials/Tutorials%20from%20Langchain/LangChain%20Modules/Retrieval/Text%20Splitters.ipynb)
+- [Text embedding models.ipynb](https://github.com/Omegapy/LLM-Frameworks-Tutorials/blob/main/LangChain%20Tutorials/Tutorials%20from%20Langchain/LangChain%20Modules/Retrieval/Text%20embedding%20models.ipynb)
+- [Vector stores.ipynb](https://github.com/Omegapy/LLM-Frameworks-Tutorials/blob/main/LangChain%20Tutorials/Tutorials%20from%20Langchain/LangChain%20Modules/Retrieval/Vector%20stores.ipynb)
+- [Retrievers.ipynb](https://github.com/Omegapy/LLM-Frameworks-Tutorials/blob/main/LangChain%20Tutorials/Tutorials%20from%20Langchain/LangChain%20Modules/Retrieval/Retrievers.ipynb)
+- [indexing.ipynb](https://github.com/Omegapy/LLM-Frameworks-Tutorials/blob/main/LangChain%20Tutorials/Tutorials%20from%20Langchain/LangChain%20Modules/Retrieval/indexing.ipynb)
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 # Document loaders
-[Document loaders.ipynb]()
+[Document loaders.ipynb](https://github.com/Omegapy/LLM-Frameworks-Tutorials/blob/main/LangChain%20Tutorials/Tutorials%20from%20Langchain/LangChain%20Modules/Retrieval/Document%20loaders.ipynb)
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
@@ -129,7 +129,7 @@ Document loaders provide a "load" method for loading data as documents from a co
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 # Text Splitters
-[Text Splitters.ipynb]()
+[Text Splitters.ipynb](https://github.com/Omegapy/LLM-Frameworks-Tutorials/blob/main/LangChain%20Tutorials/Tutorials%20from%20Langchain/LangChain%20Modules/Retrieval/Text%20Splitters.ipynb)
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
@@ -150,7 +150,7 @@ Specifically from the section [Text Splitters](https://python.langchain.com/docs
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 # Text embedding models
-[Text embedding models.ipynb]()
+[Text embedding models.ipynb](https://github.com/Omegapy/LLM-Frameworks-Tutorials/blob/main/LangChain%20Tutorials/Tutorials%20from%20Langchain/LangChain%20Modules/Retrieval/Text%20embedding%20models.ipynb)
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
@@ -173,7 +173,7 @@ Specifically from the section [Text embedding models](https://python.langchain.c
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 # Vector stores
-[Vector stores.ipynb]()
+[Vector stores.ipynb](https://github.com/Omegapy/LLM-Frameworks-Tutorials/blob/main/LangChain%20Tutorials/Tutorials%20from%20Langchain/LangChain%20Modules/Retrieval/Vector%20stores.ipynb)
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
@@ -196,7 +196,7 @@ Specifically from the section [Vector stores](https://python.langchain.com/docs/
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 # Retrievers
-[Retrievers.ipynb]()
+[Retrievers.ipynb](https://github.com/Omegapy/LLM-Frameworks-Tutorials/blob/main/LangChain%20Tutorials/Tutorials%20from%20Langchain/LangChain%20Modules/Retrieval/Retrievers.ipynb)
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
@@ -217,7 +217,7 @@ Specifically from the section [Retrievers](https://python.langchain.com/docs/mod
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 # Indexing
-[Indexing.ipynb]()
+[indexing.ipynb](https://github.com/Omegapy/LLM-Frameworks-Tutorials/blob/main/LangChain%20Tutorials/Tutorials%20from%20Langchain/LangChain%20Modules/Retrieval/indexing.ipynb)
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
