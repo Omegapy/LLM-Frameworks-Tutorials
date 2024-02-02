@@ -56,6 +56,8 @@ Furthermore, the code lines are heavily commented on; this is a tutorial, after 
 Projects Description:
 Series of LangChain Tutorials
 
-- Tutorial LangChain LCEL: This project is a series of LangChain Expression Language (LCEL) tutorials on Jupyter Notebook.
-  The tutorials are a series of LangChain LCEL (in Python) code examples from the https://python.langchain.com/ website
+- [Tutorials from LangChain](https://github.com/Omegapy/LLM-Frameworks-Tutorials/tree/main/LangChain%20Tutorials/Tutorials%20from%20Langchain)
+   - [LangChain Expression Language (LCEL)](https://github.com/Omegapy/LLM-Frameworks-Tutorials/tree/main/LangChain%20Tutorials/Tutorials%20from%20Langchain/LangChain%20Expression%20Language%20(LCEL))
+   - [LangChain Modules](https://github.com/Omegapy/LLM-Frameworks-Tutorials/tree/main/LangChain%20Tutorials/Tutorials%20from%20Langchain/LangChain%20Modules)
+
 
