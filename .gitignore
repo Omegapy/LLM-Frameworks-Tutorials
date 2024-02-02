@@ -14,4 +14,4 @@
 # Data Bases
 **/**/.qdrant_mm_db/
 Templates
-**/**/Template.ipynb
+**/**/Template-LangChain.ipynb
