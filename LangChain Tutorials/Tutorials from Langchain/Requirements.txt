@@ -6,8 +6,11 @@ langchainhub
 langchain_experimental
 pydantic==1.10.8
 docarray==0.40.0
-faiss-cpu
+faiss-cpu # only for Linux
 grandalf
 unstructured
-"unstructured[md]"
+"unstructured[md]" # only for Linux
 tqdm
+jq # only for Linux
+pypdf
+rapidocr-onnxruntime
