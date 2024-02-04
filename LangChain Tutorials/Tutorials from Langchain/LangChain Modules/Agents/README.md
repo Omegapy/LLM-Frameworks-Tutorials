@@ -53,11 +53,11 @@ Agents have a lot of related functionality! Check out comprehensive guides inclu
 - [Streaming (of both intermediate steps and tokens](https://python.langchain.com/docs/modules/agents/how_to/streaming)
 - [Building an agent that returns structured output](https://python.langchain.com/docs/modules/agents/how_to/agent_structured) 
 - Lots of functionality around using AgentExecutor, including: 
-o [using it as an iterator](https://python.langchain.com/docs/modules/agents/how_to/agent_iter)
-o [handle parsing errors](https://python.langchain.com/docs/modules/agents/how_to/handle_parsing_errors)
-o [returning intermediate steps](https://python.langchain.com/docs/modules/agents/how_to/intermediate_steps)
-o [capping the max number of iterations](https://python.langchain.com/docs/modules/agents/how_to/max_iterations)
-o [timeouts for agents]( https://python.langchain.com/docs/modules/agents/how_to/max_time_limit)
+       - [using it as an iterator](https://python.langchain.com/docs/modules/agents/how_to/agent_iter)
+       - [handle parsing errors](https://python.langchain.com/docs/modules/agents/how_to/handle_parsing_errors)
+       - [returning intermediate steps](https://python.langchain.com/docs/modules/agents/how_to/intermediate_steps)
+       - [capping the max number of iterations](https://python.langchain.com/docs/modules/agents/how_to/max_iterations)
+       - [timeouts for agents]( https://python.langchain.com/docs/modules/agents/how_to/max_time_limit)
 
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -67,17 +67,19 @@ o [timeouts for agents]( https://python.langchain.com/docs/modules/agents/how_to
 - [Concepts](#concepts)
 - [Agent Types](#agent-types)
 - [How To](#how-to)
+- [Tools](#tools)
 
 Notebooks:
-- [Quickstart.ipynb]()
-- [Concepts.ipynb]() 
-- [Agent Types.ipynb]()
-- [How To.ipynb]()
+- [Quickstart.ipynb](https://github.com/Omegapy/LLM-Frameworks-Tutorials/blob/main/LangChain%20Tutorials/Tutorials%20from%20Langchain/LangChain%20Modules/Agents/Quickstart.ipynb)
+- [Concepts.ipynb](https://github.com/Omegapy/LLM-Frameworks-Tutorials/blob/main/LangChain%20Tutorials/Tutorials%20from%20Langchain/LangChain%20Modules/Agents/Concepts.ipynb) 
+- [Agent Types.ipynb](https://github.com/Omegapy/LLM-Frameworks-Tutorials/blob/main/LangChain%20Tutorials/Tutorials%20from%20Langchain/LangChain%20Modules/Agents/Agent%20Types.ipynb)
+- [How To.ipynb](https://github.com/Omegapy/LLM-Frameworks-Tutorials/blob/main/LangChain%20Tutorials/Tutorials%20from%20Langchain/LangChain%20Modules/Agents/How%20To.ipynb)
+- [Tools.ipynb](https://github.com/Omegapy/LLM-Frameworks-Tutorials/blob/main/LangChain%20Tutorials/Tutorials%20from%20Langchain/LangChain%20Modules/Agents/Tools.ipynb)
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 # Quickstart
-[Quickstart.ipynb]()
+[Quickstart.ipynb](https://github.com/Omegapy/LLM-Frameworks-Tutorials/blob/main/LangChain%20Tutorials/Tutorials%20from%20Langchain/LangChain%20Modules/Agents/Quickstart.ipynb)
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
@@ -98,7 +100,7 @@ Specifically from the section [Quickstart](https://python.langchain.com/docs/mod
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 # Concepts 
-[Concepts.ipynb]()
+[Concepts.ipynb](https://github.com/Omegapy/LLM-Frameworks-Tutorials/blob/main/LangChain%20Tutorials/Tutorials%20from%20Langchain/LangChain%20Modules/Agents/Concepts.ipynb) 
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
@@ -118,7 +120,7 @@ Specifically from the section [Concepts](https://python.langchain.com/docs/modul
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 # Agent Types
-[Agent Types.ipynb]()
+[Agent Types.ipynb](https://github.com/Omegapy/LLM-Frameworks-Tutorials/blob/main/LangChain%20Tutorials/Tutorials%20from%20Langchain/LangChain%20Modules/Agents/Agent%20Types.ipynb)
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
@@ -138,30 +140,8 @@ Specifically from the section [Agent Types](https://python.langchain.com/docs/mo
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
-# Tools
-[Tools.ipynb]()
-
------------------------------------------------------------------------------------------------------------------------------
------------------------------------------------------------------------------------------------------------------------------
-
-Projects Description:  
-**LangChain** is a framework for developing applications powered by language models.  
-**In this project:** This project is a series of LangChain text embedding models for LLMs tutorials on Jupyter Notebook.  
-The tutorials are a series LangChain Python code examples from the https://python.langchain.com/ website.
-
-Specifically from the section Tools]( https://python.langchain.com/docs/modules/agents/concepts).
-
-**Project Map:**
-- API Key
-
-
-[Go back to the Project Main Map](#project-map-main)
-
-
------------------------------------------------------------------------------------------------------------------------------
------------------------------------------------------------------------------------------------------------------------------
 # How To
-[How To.ipynb]()
+[How To.ipynb](https://github.com/Omegapy/LLM-Frameworks-Tutorials/blob/main/LangChain%20Tutorials/Tutorials%20from%20Langchain/LangChain%20Modules/Agents/How%20To.ipynb)
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
@@ -188,6 +168,28 @@ o [timeouts for agents]( https://python.langchain.com/docs/modules/agents/how_to
 
 
 [Go back to the Project Main Map](#project-map-main)
+
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+# Tools
+[Tools.ipynb](https://github.com/Omegapy/LLM-Frameworks-Tutorials/blob/main/LangChain%20Tutorials/Tutorials%20from%20Langchain/LangChain%20Modules/Agents/Tools.ipynb)
+
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+
+Projects Description:  
+**LangChain** is a framework for developing applications powered by language models.  
+**In this project:** This project is a series of LangChain text embedding models for LLMs tutorials on Jupyter Notebook.  
+The tutorials are a series LangChain Python code examples from the https://python.langchain.com/ website.
+
+Specifically from the section Tools](https://python.langchain.com/docs/modules/agents/tools/).
+
+**Project Map:**
+- API Key
+
+
+[Go back to the Project Main Map](#project-map-main)
+
 
 
 

@@ -34,10 +34,12 @@ My Links:
 #### Project Map Main
 - [Model IO](#model-io)
 - [Retrieval](#retrieval)
+- [Agents](#agents)
 
 Directory:
 - [Model IO](https://github.com/Omegapy/LLM-Frameworks-Tutorials/tree/main/LangChain%20Tutorials/Tutorials%20from%20Langchain/LangChain%20Modules/Model%20IO)
 - [Retrieval](https://github.com/Omegapy/LLM-Frameworks-Tutorials/tree/main/LangChain%20Tutorials/Tutorials%20from%20Langchain/LangChain%20Modules/Retrieval)
+- [Agents](https://github.com/Omegapy/LLM-Frameworks-Tutorials/tree/main/LangChain%20Tutorials/Tutorials%20from%20Langchain/LangChain%20Modules/Agents)
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
@@ -150,10 +152,58 @@ Notebooks:
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 # Agents
-[Agents]()
+[Agents](https://github.com/Omegapy/LLM-Frameworks-Tutorials/tree/main/LangChain%20Tutorials/Tutorials%20from%20Langchain/LangChain%20Modules/Agents)
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
+
+Projects Description:  
+This project is a series of LangChain data retrieval for LLMs tutorials on Jupyter Notebook.  
+The tutorials are a series LangChain Python code examples from the https://python.langchain.com/ website
+
+Specifically from the section [Agents](https://python.langchain.com/docs/modules/agents/)
+
+**Agents**
+
+The core idea of agents is to use a language model to choose a sequence of actions to take. In chains, a sequence of actions is hardcoded (in code). In agents, a language model is used as a reasoning engine to determine which actions to take and in which order.
+
+[Quickstart](https://python.langchain.com/docs/modules/agents/quick_start)
+For a quick start to working with agents, please check out this getting started guide. This covers basics like initializing an agent, creating tools, and adding memory.
+
+[Concepts](https://python.langchain.com/docs/modules/agents/concepts)
+There are several key concepts to understand when building agents: Agents, AgentExecutor, Tools, Toolkits. For an in depth explanation.
+
+[Agent Types](https://python.langchain.com/docs/modules/agents/agent_types/)  
+There are many different types of agents to use. For a overview of the different types and when to use them.
+
+[Tools](https://python.langchain.com/docs/modules/data_connection/vectorstores/)  
+With the rise of embeddings, there has emerged a need for databases to support efficient storage and searching of these embeddings. LangChain provides integrations with over 50 different vectorstores, from open-source local ones to cloud-hosted proprietary ones, allowing you to choose the one best suited for your needs. LangChain exposes a standard interface, allowing you to easily swap between vector stores.
+
+How To Guides
+Agents have a lot of related functionality! Check out comprehensive guides including:
+- [Building a custom agent](https://python.langchain.com/docs/modules/agents/how_to/custom_agent)
+- [Streaming (of both intermediate steps and tokens](https://python.langchain.com/docs/modules/agents/how_to/streaming)
+- [Building an agent that returns structured output](https://python.langchain.com/docs/modules/agents/how_to/agent_structured) 
+- Lots of functionality around using AgentExecutor, including: 
+       - [using it as an iterator](https://python.langchain.com/docs/modules/agents/how_to/agent_iter)
+       - [handle parsing errors](https://python.langchain.com/docs/modules/agents/how_to/handle_parsing_errors)
+       - [returning intermediate steps](https://python.langchain.com/docs/modules/agents/how_to/intermediate_steps)
+       - [capping the max number of iterations](https://python.langchain.com/docs/modules/agents/how_to/max_iterations)
+       - [timeouts for agents]( https://python.langchain.com/docs/modules/agents/how_to/max_time_limit)
+
+**Project Map Main**
+- Quickstart
+- Concepts
+- Agent Types
+- How To
+- Tools
+
+Notebooks:
+- [Quickstart.ipynb](https://github.com/Omegapy/LLM-Frameworks-Tutorials/blob/main/LangChain%20Tutorials/Tutorials%20from%20Langchain/LangChain%20Modules/Agents/Quickstart.ipynb)
+- [Concepts.ipynb](https://github.com/Omegapy/LLM-Frameworks-Tutorials/blob/main/LangChain%20Tutorials/Tutorials%20from%20Langchain/LangChain%20Modules/Agents/Concepts.ipynb) 
+- [Agent Types.ipynb](https://github.com/Omegapy/LLM-Frameworks-Tutorials/blob/main/LangChain%20Tutorials/Tutorials%20from%20Langchain/LangChain%20Modules/Agents/Agent%20Types.ipynb)
+- [How To.ipynb](https://github.com/Omegapy/LLM-Frameworks-Tutorials/blob/main/LangChain%20Tutorials/Tutorials%20from%20Langchain/LangChain%20Modules/Agents/How%20To.ipynb)
+- [Tools.ipynb](https://github.com/Omegapy/LLM-Frameworks-Tutorials/blob/main/LangChain%20Tutorials/Tutorials%20from%20Langchain/LangChain%20Modules/Agents/Tools.ipynb
 
 
 [Go back to the Project Main Map](#project-map-main)

@@ -91,7 +91,7 @@ Specifically from the section [Modules](https://python.langchain.com/docs/module
 **Project Map:**
 - [Model IO](https://github.com/Omegapy/LLM-Frameworks-Tutorials/tree/main/LangChain%20Tutorials/Tutorials%20from%20Langchain/LangChain%20Modules/Model%20IO)
 - [Retrieval](https://github.com/Omegapy/LLM-Frameworks-Tutorials/tree/main/LangChain%20Tutorials/Tutorials%20from%20Langchain/LangChain%20Modules/Retrieval)
-- [Agents]()
+- [Agents](https://github.com/Omegapy/LLM-Frameworks-Tutorials/tree/main/LangChain%20Tutorials/Tutorials%20from%20Langchain/LangChain%20Modules/Agents)
 
 [Go back to the Project Main Map](#project-map-main)
 
