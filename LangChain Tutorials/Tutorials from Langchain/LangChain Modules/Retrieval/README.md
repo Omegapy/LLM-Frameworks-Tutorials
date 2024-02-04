@@ -72,17 +72,11 @@ The LangChain Indexing API syncs your data from any source into a vector store, 
 - [Document loaders](#document-loaders)
 - [Text Splitters](#text-splitters)
 - [Text embedding models](text-embedding-models)
-- [Vector stores](#vector-stores)
-- [Retrievers](retrievers)
-- [Indexing](#indexing)
 
 Notebooks:
 - [Document loaders.ipynb](https://github.com/Omegapy/LLM-Frameworks-Tutorials/blob/main/LangChain%20Tutorials/Tutorials%20from%20Langchain/LangChain%20Modules/Retrieval/Document%20loaders.ipynb)
 - [Text Splitters.ipynb](https://github.com/Omegapy/LLM-Frameworks-Tutorials/blob/main/LangChain%20Tutorials/Tutorials%20from%20Langchain/LangChain%20Modules/Retrieval/Text%20Splitters.ipynb)
 - [Text embedding models.ipynb](https://github.com/Omegapy/LLM-Frameworks-Tutorials/blob/main/LangChain%20Tutorials/Tutorials%20from%20Langchain/LangChain%20Modules/Retrieval/Text%20embedding%20models.ipynb)
-- [Vector stores.ipynb](https://github.com/Omegapy/LLM-Frameworks-Tutorials/blob/main/LangChain%20Tutorials/Tutorials%20from%20Langchain/LangChain%20Modules/Retrieval/Vector%20stores.ipynb)
-- [Retrievers.ipynb](https://github.com/Omegapy/LLM-Frameworks-Tutorials/blob/main/LangChain%20Tutorials/Tutorials%20from%20Langchain/LangChain%20Modules/Retrieval/Retrievers.ipynb)
-- [indexing.ipynb](https://github.com/Omegapy/LLM-Frameworks-Tutorials/blob/main/LangChain%20Tutorials/Tutorials%20from%20Langchain/LangChain%20Modules/Retrieval/indexing.ipynb)
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
