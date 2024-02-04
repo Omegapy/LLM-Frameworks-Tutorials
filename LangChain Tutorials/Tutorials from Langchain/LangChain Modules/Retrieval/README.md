@@ -141,9 +141,63 @@ The tutorials are a series LangChain Python code examples from the https://pytho
  
 Specifically from the section [Text Splitters](https://python.langchain.com/docs/modules/data_connection/document_transformers/).
 
+Once you've loaded documents, you'll often want to transform them to better suit your application. The simplest example is you may want to split a long document into smaller chunks that can fit into your model's context window. LangChain has a number of built-in document transformers that make it easy to split, combine, filter, and otherwise manipulate documents.
+
+When you want to deal with long pieces of text, it is necessary to split up that text into chunks. As simple as this sounds, there is a lot of potential complexity here. Ideally, you want to keep the semantically related pieces of text together. What "semantically related" means could depend on the type of text. This notebook showcases several ways to do that.
+
+At a high level, text splitters work as following:
+
+1. Split the text up into small, semantically meaningful chunks (often sentences).
+2. Start combining these small chunks into a larger chunk until you reach a certain size (as measured by some function).
+3. Once you reach that size, make that chunk its own piece of text and then start creating a new chunk of text with some overlap (to keep context between chunks).
+
+That means there are two different axes along which you can customize your text splitter:
+1. How the text is split
+2. How the chunk size is measured
+
+**Types of Text Splitters**
+LangChain offers many different types of text splitters. Below is a table listing all of them, along with a few characteristics:
+
+**Name**: Name of the text splitter
+
+**Splits On**: How this text splitter splits text
+
+**Adds Metadata**: Whether or not this text splitter adds metadata about where each chunk came from.
+
+**Description**: Description of the splitter, including recommendation on when to use it.
+
+<table><thead><tr><th>Name</th><th>Splits On</th><th>Adds Metadata</th><th>Description</th></tr></thead><tbody><tr><td>Recursive</td><td>A list of user defined characters</td><td></td><td>Recursively splits text. Splitting text recursively serves the purpose of trying to keep related pieces of text next to each other. This is the recommended way to start splitting text.</td></tr><tr><td>HTML</td><td>HTML specific characters</td><td>✅</td><td>Splits text based on HTML-specific characters. Notably, this adds in relevant information about where that chunk came from (based on the HTML)</td></tr><tr><td>Markdown</td><td>Markdown specific characters</td><td>✅</td><td>Splits text based on Markdown-specific characters. Notably, this adds in relevant information about where that chunk came from (based on the Markdown)</td></tr><tr><td>Code</td><td>Code (Python, JS) specific characters</td><td></td><td>Splits text based on characters specific to coding languages. 15 different languages are available to choose from.</td></tr><tr><td>Token</td><td>Tokens</td><td></td><td>Splits text on tokens. There exist a few different ways to measure tokens.</td></tr><tr><td>Character</td><td>A user defined character</td><td></td><td>Splits text based on a user defined character. One of the simpler methods.</td></tr><tr><td>[Experimental] Semantic Chunker</td><td>Sentences</td><td></td><td>First splits on sentences. Then combines ones next to each other if they are semantically similar enough. Taken from <a href="https://github.com/FullStackRetrieval-com/RetrievalTutorials/blob/main/5_Levels_Of_Text_Splitting.ipynb" target="_blank" rel="noopener noreferrer">Greg Kamradt</a></td></tr></tbody></table>
+
+**Evaluate text splitters**
+You can evaluate text splitters with the [Chunkviz utility](https://chunkviz.up.railway.app/) created by Greg Kamradt. ```Chunkviz``` is a great tool for visualizing how your text splitter is working. It will show you how your text is being split up and help in tuning up the splitting parameters.
+
+**Other Document Transforms**
+Text splitting is only one example of transformations that you may want to do on documents before passing them to an LLM. Head to Integrations for documentation on built-in document transformer [integrations](https://python.langchain.com/docs/integrations/document_transformers/) with 3rd-party tools.
+
 **Project Map:**
 - API Key
-
+- HTMLHeaderTextSplitter
+    - Base Example
+    - Limitations
+- Split by character
+- Split code
+    - Python
+    - JS
+    - TS
+    - Markdown
+    - Latex
+    - HTML
+    - Solidity
+    - c
+- MarkdownHeaderTextSplitter
+- Recursively split by character
+- Semantic Chunking
+- Split by tokens
+    - tiktoken
+    - spaCy
+    - SentenceTransformers
+    - NTLK
+    - Hugging Face tokenizer
 
 [Go back to the Project Main Map](#project-map-main)
 
