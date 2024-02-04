@@ -216,10 +216,20 @@ The tutorials are a series LangChain Python code examples from the https://pytho
 
 Specifically from the section [Text embedding models](https://python.langchain.com/docs/modules/data_connection/text_embedding/)
 
+The ```Embeddings class``` is a class designed for interfacing with text embedding models. There are lots of embedding model providers (OpenAI, Cohere, Hugging Face, etc) - this class is designed to provide a standard interface for all of them.
+
+Embeddings create a vector representation of a piece of text. This is useful because it means we can think about text in the vector space, and do things like semantic search where we look for pieces of text that are most similar in the vector space.
+
+The base Embeddings class in LangChain provides two methods: one for embedding documents and one for embedding a query. The former takes as input multiple texts, while the latter takes a single text. The reason for having these as two separate methods is that some embedding providers have different embedding methods for documents (to be searched over) vs queries (the search query itself).
+
 ⚠️ **Info**: Head to [Integrations](https://python.langchain.com/docs/integrations/text_embedding/) for documentation on built-in integrations with text embedding model providers.
 
 **Project Map:**
 - API Key
+- Get started
+- CacheBackedEmbeddings
+    - Using with a Vector Store
+    - Swapping the ByteStore
 
 
 [Go back to the Project Main Map](#project-map-main)
